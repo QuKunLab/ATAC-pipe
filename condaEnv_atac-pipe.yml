@@ -14,7 +14,7 @@ dependencies:
   - gawk=4.1
   - bowtie2=2.3.0
   - bedtools=2.26.0
-#  - picard=2.9.2
+  - picard=2.9.2
   - pandas=0.20.2
   - bioconductor-deseq=1.22.1
   - homer=4.9.1
