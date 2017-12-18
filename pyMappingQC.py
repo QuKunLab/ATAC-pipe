@@ -148,7 +148,7 @@ def ChrM(Insam):
 #************************************************#
 def Deduplicate(Inbam):
     Dedupbam=Inbam[0:-4]+'.rmdup.bam'
-    os.system("java -jar ./picard.jar MarkDuplicates INPUT=%s OUTPUT=%s METRICS_FILE=%s.Picard_Metrics_unfiltered_bam.txt VALIDATION_STRINGENCY=LENIENT ASSUME_SORTED=true REMOVE_DUPLICATES=true &> %s.Picard.log" %(Inbam,Dedupbam,Inbam,Inbam))
+    os.system("picard MarkDuplicates INPUT=%s OUTPUT=%s METRICS_FILE=%s.Picard_Metrics_unfiltered_bam.txt VALIDATION_STRINGENCY=LENIENT ASSUME_SORTED=true REMOVE_DUPLICATES=true &> %s.Picard.log" %(Inbam,Dedupbam,Inbam,Inbam))
     return
 #sam2perbase1bpbam
 def sam2perbasebam(inbam):
