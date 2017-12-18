@@ -1,0 +1,28 @@
+name: atac-pipe
+channels:
+  - bioconda
+  - r
+  - anaconda
+  - conda-forge
+dependencies:
+  - python=2.7
+  - numpy=1.11.0
+  - pysam=0.11
+  - matplotlib=2.0.0
+  - samtools=1.5
+  - r=3.2.2
+  - gawk=4.1
+  - bowtie2=2.3.0
+  - bedtools=2.26.0
+#  - picard=2.9.2
+  - pandas=0.20.2
+  - bioconductor-deseq=1.22.1
+  - homer=4.9.1
+  - seaborn=0.7.1
+  - macs2=2.1.1
+  - r-pheatmap=1.0.8
+  - python-levenshtein
+  - ucsc-bedsort
+  - ucsc-bedgraphtobigwig
+  - scikit-learn=0.17.1
+
