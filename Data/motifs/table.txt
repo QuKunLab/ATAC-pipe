@@ -1,0 +1,333 @@
+Filename	Name	Consensus	Factor Name	DBD	Submotif	Cell Type	IP	Assay	GEO ID	Source	Symbol
+ap1.motif	AP-1(bZIP)/ThioMac-PU.1-ChIP-Seq(GSE21512)/Homer	ATGACTCATC	AP-1	bZIP	canonical	ThioMac	PU.1	ChIP-Seq	GSE21512	Homer	FOS
+ap2gamma.motif	AP-2gamma(AP2)/MCF7-TFAP2C-ChIP-Seq(GSE21234)/Homer	SCCTSAGGSCAW	AP-2gamma	AP2	canonical	MCF7	TFAP2C	ChIP-Seq	GSE21234	Homer	TFAP2C
+ap2.motif	AP-2alpha(AP2)/Hela-AP2alpha-ChIP-Seq(GSE31477)/Homer	ATGCCCTGAGGC	AP-2alpha	AP2	canonical	Hela	AP2alpha	ChIP-Seq	GSE31477	Homer	TFAP2A
+ap4.motif	Ap4(bHLH)/AML-Tfap4-ChIP-Seq(GSE45738)/Homer	NAHCAGCTGD	Ap4	bHLH	canonical	AML	Tfap4	ChIP-Seq	GSE45738	Homer	TFAP4
+are-fox.motif	FOXA1:AR(Forkhead,NR)/LNCAP-AR-ChIP-Seq(GSE27824)/Homer	AGTAAACAAAAAAGAACANA	FOXA1:AR	Forkhead,NR	canonical	LNCAP	AR	ChIP-Seq	GSE27824	Homer	
+are.motif	ARE(NR)/LNCAP-AR-ChIP-Seq(GSE27824)/Homer	AGAACAGNCTGTTCTT	ARE	NR	canonical	LNCAP	AR	ChIP-Seq	GSE27824	Homer	AR
+ar-half.motif	AR-halfsite(NR)/LNCaP-AR-ChIP-Seq(GSE27824)/Homer	CCAGGAACAG	AR-halfsite	NR	canonical	LNCaP	AR	ChIP-Seq	GSE27824	Homer	
+arnt.motif	Arnt:Ahr(bHLH)/MCF7-Arnt-ChIP-Seq(Lo_et_al.)/Homer	TBGCACGCAA	Arnt:Ahr	bHLH	canonical	MCF7	Arnt	ChIP-Seq	Lo_et_al.	Homer	ARNT
+ascl1.motif	Ascl1(bHLH)/NeuralTubes-Ascl1-ChIP-Seq(GSE55840)/Homer	NNVVCAGCTGBN	Ascl1	bHLH	canonical	NeuralTubes	Ascl1	ChIP-Seq	GSE55840	Homer	ASCL1
+atf1.motif	Atf1(bZIP)/K562-ATF1-ChIP-Seq(GSE31477)/Homer	GATGACGTCA	Atf1	bZIP	canonical	K562	ATF1	ChIP-Seq	GSE31477	Homer	ATF1
+atf2.motif	Atf2(bZIP)/3T3L1-Atf2-ChIP-Seq(GSE56872)/Homer	NRRTGACGTCAT	Atf2	bZIP	canonical	3T3L1	Atf2	ChIP-Seq	GSE56872	Homer	ATF2
+atf3.motif	Atf3(bZIP)/GBM-ATF3-ChIP-Seq(GSE33912)/Homer	DATGASTCATHN	Atf3	bZIP	canonical	GBM	ATF3	ChIP-Seq	GSE33912	Homer	ATF3
+atf4.motif	Atf4(bZIP)/MEF-Atf4-ChIP-Seq(GSE35681)/Homer	MTGATGCAAT	Atf4	bZIP	canonical	MEF	Atf4	ChIP-Seq	GSE35681	Homer	ATF4
+atf7.motif	Atf7(bZIP)/3T3L1-Atf7-ChIP-Seq(GSE56872)/Homer	NGRTGACGTCAY	Atf7	bZIP	canonical	3T3L1	Atf7	ChIP-Seq	GSE56872	Homer	ATF7
+atoh1.motif	Atoh1(bHLH)/Cerebellum-Atoh1-ChIP-Seq(GSE22111)/Homer	VNAVCAGCTGGC	Atoh1	bHLH	canonical	Cerebellum	Atoh1	ChIP-Seq	GSE22111	Homer	ATOH1
+bach1.motif	Bach1(bZIP)/K562-Bach1-ChIP-Seq(GSE31477)/Homer	AWWNTGCTGAGTCAT	Bach1	bZIP	canonical	K562	Bach1	ChIP-Seq	GSE31477	Homer	BACH1
+bach2.motif	Bach2(bZIP)/OCILy7-Bach2-ChIP-Seq(GSE44420)/Homer	TGCTGAGTCA	Bach2	bZIP	canonical	OCILy7	Bach2	ChIP-Seq	GSE44420	Homer	BACH2
+bapx1.motif	Bapx1(Homeobox)/VertebralCol-Bapx1-ChIP-Seq(GSE36672)/Homer	TTRAGTGSYK	Bapx1	Homeobox	canonical	VertebralCol	Bapx1	ChIP-Seq	GSE36672	Homer	NKX3-2
+batf3-irf8.motif	IRF:BATF(IRF:bZIP)/pDC-Irf8-ChIP-Seq(GSE66899)/Homer	CTTTCANTATGACTV	IRF:BATF	IRF:bZIP	canonical	pDC	Irf8	ChIP-Seq	GSE66899	Homer	
+batf.motif	BATF(bZIP)/Th17-BATF-ChIP-Seq(GSE39756)/Homer	DATGASTCAT	BATF	bZIP	canonical	Th17	BATF	ChIP-Seq	GSE39756	Homer	BATF
+bcl6.motif	Bcl6(Zf)/Liver-Bcl6-ChIP-Seq(GSE31578)/Homer	NNNCTTTCCAGGAAA	Bcl6	Zf	canonical	Liver	Bcl6	ChIP-Seq	GSE31578	Homer	BCL6
+bhlhe40.motif	bHLHE40(bHLH)/HepG2-BHLHE40-ChIP-Seq(GSE31477)/Homer	KCACGTGMCN	bHLHE40	bHLH	canonical	HepG2	BHLHE40	ChIP-Seq	GSE31477	Homer	BHLHE40
+bmal.motif	BMAL1(bHLH)/Liver-Bmal1-ChIP-Seq(GSE39860)/Homer	GNCACGTG	BMAL1	bHLH	canonical	Liver	Bmal1	ChIP-Seq	GSE39860	Homer	ARNTL
+bmyb.motif	BMYB(HTH)/Hela-BMYB-ChIP-Seq(GSE27030)/Homer	NHAACBGYYV	BMYB	HTH	canonical	Hela	BMYB	ChIP-Seq	GSE27030	Homer	MYBL2
+boris.motif	BORIS(Zf)/K562-CTCFL-ChIP-Seq(GSE32465)/Homer	CNNBRGCGCCCCCTGSTGGC	BORIS	Zf	canonical	K562	CTCFL	ChIP-Seq	GSE32465	Homer	CTCFL
+brachyury.motif	Brachyury(T-box)/Mesoendoderm-Brachyury-ChIP-exo(GSE54963)/Homer	ANTTMRCASBNNNGTGYKAAN	Brachyury	T-box	canonical	Mesoendoderm	Brachyury	ChIP-exo	GSE54963	Homer	T
+brn1.motif	Brn1(POU,Homeobox)/NPC-Brn1-ChIP-Seq(GSE35496)/Homer	TATGCWAATBAV	Brn1	POU,Homeobox	canonical	NPC	Brn1	ChIP-Seq	GSE35496	Homer	POU3F3
+brn2.motif	Brn2(POU,Homeobox)/NPC-Brn2-ChIP-Seq(GSE35496)/Homer	ATGAATATTC	Brn2	POU,Homeobox	canonical	NPC	Brn2	ChIP-Seq	GSE35496	Homer	POU3F2
+bzip-irf.motif	bZIP:IRF(bZIP,IRF)/Th17-BatF-ChIP-Seq(GSE39756)/Homer	NAGTTTCABTHTGACTNW	bZIP:IRF	bZIP,IRF	canonical	Th17	BatF	ChIP-Seq	GSE39756	Homer	
+cdx2.motif	Cdx2(Homeobox)/mES-Cdx2-ChIP-Seq(GSE14586)/Homer	GTCATAAAAN	Cdx2	Homeobox	canonical	mES	Cdx2	ChIP-Seq	GSE14586	Homer	CDX2
+cdx4.motif	CDX4(Homeobox)/ZebrafishEmbryos-Cdx4.Myc-ChIP-Seq(GSE48254)/Homer	NGYCATAAAWCH	CDX4	Homeobox	canonical	ZebrafishEmbryos	Cdx4.Myc	ChIP-Seq	GSE48254	Homer	CDX4
+cebp-ap1.motif	CEBP:AP1(bZIP)/ThioMac-CEBPb-ChIP-Seq(GSE21512)/Homer	NATGTTGCAA	CEBP:AP1	bZIP	canonical	ThioMac	CEBPb	ChIP-Seq	GSE21512	Homer	
+cebp-cebp.motif	CEBP:CEBP(bZIP)/MEF-Chop-ChIP-Seq(GSE35681)/Homer	NTNATGCAAYMNNHTGMAAY	CEBP:CEBP	bZIP	canonical	MEF	Chop	ChIP-Seq	GSE35681	Homer	
+cebp.motif	CEBP(bZIP)/ThioMac-CEBPb-ChIP-Seq(GSE21512)/Homer	ATTGCGCAAC	CEBP	bZIP	canonical	ThioMac	CEBPb	ChIP-Seq	GSE21512	Homer	CEBPB
+chop.motif	Chop(bZIP)/MEF-Chop-ChIP-Seq(GSE35681)/Homer	ATTGCATCAT	Chop	bZIP	canonical	MEF	Chop	ChIP-Seq	GSE35681	Homer	DDIT3
+chr.motif	CHR(?)/Hela-CellCycle-Expression/Homer	CGGTTTCAAA	CHR	?	canonical	Hela	CellCycle	Expression	NA	Homer	
+clock.motif	CLOCK(bHLH)/Liver-Clock-ChIP-Seq(GSE39860)/Homer	GHCACGTG	CLOCK	bHLH	canonical	Liver	Clock	ChIP-Seq	GSE39860	Homer	CLOCK
+cMyc.lncap.motif	c-Myc(bHLH)/LNCAP-cMyc-ChIP-Seq(Unpublished)/Homer	NCCACGTG	c-Myc	bHLH	canonical	LNCAP	cMyc	ChIP-Seq	Unpublished	Homer	
+cmyc.motif	c-Myc(bHLH)/mES-cMyc-ChIP-Seq(GSE11431)/Homer	GNCCACGTGG	c-Myc	bHLH	canonical	mES	cMyc	ChIP-Seq	GSE11431	Homer	MYC
+couptf2.motif	COUP-TFII(NR)/Artia-Nr2f2-ChIP-Seq(GSE46497)/Homer	AGRGGTCA	COUP-TFII	NR	canonical	Artia	Nr2f2	ChIP-Seq	GSE46497	Homer	NR2F2
+cre.motif	CRE(bZIP)/Promoter/Homer	CGGTGACGTCAC	CRE	bZIP	canonical	NA	NA	Promoter Enrichment	NA	Homer	CREB1
+crx.motif	CRX(Homeobox)/Retina-Crx-ChIP-Seq(GSE20012)/Homer	GCTAATCC	CRX	Homeobox	canonical	Retina	Crx	ChIP-Seq	GSE20012	Homer	CRX
+ctcf.motif	CTCF(Zf)/CD4+-CTCF-ChIP-Seq(Barski_et_al.)/Homer	ATAGTGCCACCTGGTGGCCA	CTCF	Zf	canonical	CD4+	CTCF	ChIP-Seq	Barski_et_al.	Homer	CTCF
+ctcf-mys.motif	CTCF-SatelliteElement(Zf?)/CD4+-CTCF-ChIP-Seq(Barski_et_al.)/Homer	TGCAGTTCCAANAGTGGCCA	CTCF-SatelliteElement	Zf?	canonical	CD4+	CTCF	ChIP-Seq	Barski_et_al.	Homer	
+cux2.motif	Cux2(Homeobox)/Liver-Cux2-ChIP-Seq(GSE35985)/Homer	HNRAATCAAT	Cux2	Homeobox	canonical	Liver	Cux2	ChIP-Seq	GSE35985	Homer	CUX2
+dmc1.motif	Mouse_Recombination_Hotspot(Zf)/Testis-DMC1-ChIP-Seq(GSE24438)/Homer	ACTYKNATTCGTGNTACTTC	Mouse_Recombination_Hotspot	Zf	canonical	Testis	DMC1	ChIP-Seq	GSE24438	Homer	DMC1
+dmrt1.motif	DMRT1(DM)/Testis-DMRT1-ChIP-Seq(GSE64892)/Homer	TWGHWACAWTGTWDC	DMRT1	DM	canonical	Testis	DMRT1	ChIP-Seq	GSE64892	Homer	DMRT1
+dmrt6.motif	DMRT6(DM)/Testis-DMRT6-ChIP-Seq(GSE60440)/Homer	YDGHTACAWTGTADC	DMRT6	DM	canonical	Testis	DMRT6	ChIP-Seq	GSE60440	Homer	
+dr0.motif	RAR:RXR(NR),DR5/ES-RAR-ChIP-Seq(GSE56893)/Homer	AGGTCAAGGTCA	RAR:RXR	NR	DR5	ES	RAR	ChIP-Seq	GSE56893	Homer	
+dr5.motif	RAR:RXR(NR),DR5/ES-RAR-ChIP-Seq(GSE56893)/Homer	RGGTCADNNAGAGGTCAV	RAR:RXR	NR	DR5	ES	RAR	ChIP-Seq	GSE56893	Homer	
+e2a.motif	E2A(bHLH)/proBcell-E2A-ChIP-Seq(GSE21978)/Homer	ANACAGCTGC	E2A	bHLH	canonical	proBcell	E2A	ChIP-Seq	GSE21978	Homer	TCF3
+e2f1.motif	E2F1(E2F)/Hela-E2F1-ChIP-Seq(GSE22478)/Homer	CWGGCGGGAA	E2F1	E2F	canonical	Hela	E2F1	ChIP-Seq	GSE22478	Homer	E2F1
+e2f4.motif	E2F4(E2F)/K562-E2F4-ChIP-Seq(GSE31477)/Homer	GGCGGGAAAH	E2F4	E2F	canonical	K562	E2F4	ChIP-Seq	GSE31477	Homer	E2F4
+e2f6.motif	E2F6(E2F)/Hela-E2F6-ChIP-Seq(GSE31477)/Homer	GGCGGGAARN	E2F6	E2F	canonical	Hela	E2F6	ChIP-Seq	GSE31477	Homer	E2F6
+e2f7.motif	E2F7(E2F)/Hela-E2F7-ChIP-Seq(GSE32673)/Homer	VDTTTCCCGCCA	E2F7	E2F	canonical	Hela	E2F7	ChIP-Seq	GSE32673	Homer	E2F7
+e2f.motif	E2F(E2F)/Hela-CellCycle-Expression/Homer	TTCGCGCGAAAA	E2F	E2F	canonical	Hela	CellCycle	Expression	NA	Homer	
+e47.motif	E2A(bHLH),near_PU.1/Bcell-PU.1-ChIP-Seq(GSE21512)/Homer	NNCACCTGCN	E2A	bHLH	near_PU.1	Bcell	PU.1	ChIP-Seq	GSE21512	Homer	
+ebf.motif	EBF(EBF)/proBcell-EBF-ChIP-Seq(GSE21978)/Homer	GGTCCCTAGGGA	EBF	EBF	canonical	proBcell	EBF	ChIP-Seq	GSE21978	Homer	EBF1
+ebf-old.motif	EBF1(EBF)/Near-E2A-ChIP-Seq(GSE21512)/Homer	GTCCCCAGGGGA	EBF1	EBF	canonical	Near	E2A	ChIP-Seq	GSE21512	Homer	
+ebna1.motif	EBNA1(EBV-virus)/Raji-EBNA1-ChIP-Seq(GSE30709)/Homer	GGYAGCAYDTGCTDCCCNNN	EBNA1	EBV-virus	canonical	Raji	EBNA1	ChIP-Seq	GSE30709	Homer	
+ebox.motif	E-box(bHLH)/Promoter/Homer	CCGGTCACGTGA	E-box	bHLH	canonical	NA	NA	Promoter Enrichment	NA	Homer	
+egr1.motif	Egr1(Zf)/K562-Egr1-ChIP-Seq(GSE32465)/Homer	TGCGTGGGYG	Egr1	Zf	canonical	K562	Egr1	ChIP-Seq	GSE32465	Homer	EGR1
+egr2.motif	Egr2(Zf)/Thymocytes-Egr2-ChIP-Seq(GSE34254)/Homer	NGCGTGGGCGGR	Egr2	Zf	canonical	Thymocytes	Egr2	ChIP-Seq	GSE34254	Homer	EGR2
+ehf.motif	EHF(ETS)/LoVo-EHF-ChIP-Seq(GSE49402)/Homer	AVCAGGAAGT	EHF	ETS	canonical	LoVo	EHF	ChIP-Seq	GSE49402	Homer	EHF
+eklf.motif	EKLF(Zf)/Erythrocyte-Klf1-ChIP-Seq(GSE20478)/Homer	NTGGGTGTGGCC	EKLF	Zf	canonical	Erythrocyte	Klf1	ChIP-Seq	GSE20478	Homer	KLF1
+elf1.motif	ELF1(ETS)/Jurkat-ELF1-ChIP-Seq(SRA014231)/Homer	AACCGGAAGT	ELF1	ETS	canonical	Jurkat	ELF1	ChIP-Seq	SRA014231	Homer	ELF1
+elf5.motif	ELF5(ETS)/T47D-ELF5-ChIP-Seq(GSE30407)/Homer	ACVAGGAAGT	ELF5	ETS	canonical	T47D	ELF5	ChIP-Seq	GSE30407	Homer	ELF5
+elk1.motif	Elk1(ETS)/Hela-Elk1-ChIP-Seq(GSE31477)/Homer	HACTTCCGGY	Elk1	ETS	canonical	Hela	Elk1	ChIP-Seq	GSE31477	Homer	ELK1
+elk4.motif	Elk4(ETS)/Hela-Elk4-ChIP-Seq(GSE31477)/Homer	NRYTTCCGGY	Elk4	ETS	canonical	Hela	Elk4	ChIP-Seq	GSE31477	Homer	ELK4
+eomes.motif	Eomes(T-box)/H9-Eomes-ChIP-Seq(GSE26097)/Homer	ATTAACACCT	Eomes	T-box	canonical	H9	Eomes	ChIP-Seq	GSE26097	Homer	EOMES
+ere.motif	ERE(NR),IR3/MCF7-ERa-ChIP-Seq(Unpublished)/Homer	AAGGTCACNGTGACC	ERE	NR	IR3	MCF7	ERa	ChIP-Seq	Unpublished	Homer	ESR1
+erg.motif	ERG(ETS)/VCaP-ERG-ChIP-Seq(GSE14097)/Homer	ACAGGAAGTG	ERG	ETS	canonical	VCaP	ERG	ChIP-Seq	GSE14097	Homer	ERG
+erra.motif	Erra(NR)/HepG2-Erra-ChIP-Seq(GSE31477)/Homer	CAAAGGTCAG	Erra	NR	canonical	HepG2	Erra	ChIP-Seq	GSE31477	Homer	ESRRA
+es.motif	Unknown-ESC-element(?)/mES-Nanog-ChIP-Seq(GSE11724)/Homer	CACAGCAGGGGG	Unknown-ESC-element	?	canonical	mES	Nanog	ChIP-Seq	GSE11724	Homer	
+esrrb.motif	Esrrb(NR)/mES-Esrrb-ChIP-Seq(GSE11431)/Homer	GTGACCTTGA	Esrrb	NR	canonical	mES	Esrrb	ChIP-Seq	GSE11431	Homer	ESRRB
+ets1.motif	ETS1(ETS)/Jurkat-ETS1-ChIP-Seq(GSE17954)/Homer	ACAGGAAGTG	ETS1	ETS	canonical	Jurkat	ETS1	ChIP-Seq	GSE17954	Homer	ETS1
+ets-distal.motif	Ets1-distal(ETS)/CD4+-PolII-ChIP-Seq(Barski_et_al.)/Homer	AACAGGAAGT	Ets1-distal	ETS	canonical	CD4+	PolII	ChIP-Seq	Barski_et_al.	Homer	
+ets-ebox.motif	ETS:E-box(ETS,bHLH)/HPC7-Scl-ChIP-Seq(GSE22178)/Homer	AGGAAACAGCTG	ETS:E-box	ETS,bHLH	canonical	HPC7	Scl	ChIP-Seq	GSE22178	Homer	
+ets.motif	ETS(ETS)/Promoter/Homer	AACCGGAAGT	ETS	ETS	canonical	NA	NA	Promoter Enrichment	NA	Homer	
+ets-runx.motif	ETS:RUNX(ETS,Runt)/Jurkat-RUNX1-ChIP-Seq(GSE17954)/Homer	ACAGGATGTGGT	ETS:RUNX	ETS,Runt	canonical	Jurkat	RUNX1	ChIP-Seq	GSE17954	Homer	
+etv1.motif	ETV1(ETS)/GIST48-ETV1-ChIP-Seq(GSE22441)/Homer	AACCGGAAGT	ETV1	ETS	canonical	GIST48	ETV1	ChIP-Seq	GSE22441	Homer	ETV1
+etv2.motif	Etv2(ETS)/ES-ER71-ChIP-Seq(GSE59402)/Homer(0.967)	NNAYTTCCTGHN	Etv2	ETS	canonical	ES	ER71	ChIP-Seq	GSE59402	Homer(0.967)	ETV2
+ews-erg.motif	EWS:ERG-fusion(ETS)/CADO_ES1-EWS:ERG-ChIP-Seq(SRA014231)/Homer	ATTTCCTGTN	EWS:ERG-fusion	ETS	canonical	CADO_ES1	EWS:ERG	ChIP-Seq	SRA014231	Homer	
+ews-fli1.motif	EWS:FLI1-fusion(ETS)/SK_N_MC-EWS:FLI1-ChIP-Seq(SRA014231)/Homer	AACAGGAAAT	EWS:FLI1-fusion	ETS	canonical	SK_N_MC	EWS:FLI1	ChIP-Seq	SRA014231	Homer	
+fli.motif	Fli1(ETS)/CD8-FLI-ChIP-Seq(GSE20898)/Homer	NRYTTCCGGH	Fli1	ETS	canonical	CD8	FLI	ChIP-Seq	GSE20898	Homer	FLI1
+fosl2.motif	Fosl2(bZIP)/3T3L1-Fosl2-ChIP-Seq(GSE56872)/Homer	NATGASTCABNN	Fosl2	bZIP	canonical	3T3L1	Fosl2	ChIP-Seq	GSE56872	Homer	FOXL2
+foxa1.lncap.motif	FOXA1(Forkhead)/LNCAP-FOXA1-ChIP-Seq(GSE27824)/Homer	AAAGTAAACA	FOXA1	Forkhead	canonical	LNCAP	FOXA1	ChIP-Seq	GSE27824	Homer	
+foxa1.mcf7.motif	FOXA1(Forkhead)/MCF7-FOXA1-ChIP-Seq(GSE26831)/Homer	AAAGTAAACA	FOXA1	Forkhead	canonical	MCF7	FOXA1	ChIP-Seq	GSE26831	Homer	FOXA1
+foxa2.motif	Foxa2(Forkhead)/Liver-Foxa2-ChIP-Seq(GSE25694)/Homer	CTTGTTTACATA	Foxa2	Forkhead	canonical	Liver	Foxa2	ChIP-Seq	GSE25694	Homer	FOXA2
+fox-ebox.motif	Fox:Ebox(Forkhead,bHLH)/Panc1-Foxa2-ChIP-Seq(GSE47459)/Homer	NNNVCTGWGYAAACASN	Fox:Ebox	Forkhead,bHLH	canonical	Panc1	Foxa2	ChIP-Seq	GSE47459	Homer	
+foxh1.motif	Foxh1(Forkhead)/hESC-FOXH1-ChIP-Seq(GSE29422)/Homer	NNTGTGGATTSS	Foxh1	Forkhead	canonical	hESC	FOXH1	ChIP-Seq	GSE29422	Homer	FOXH1
+foxk2.motif	FOXK2(Forkhead)/U2OS-FOXK2-ChIP-Seq(E-MTAB-2204)/Homer	SCHTGTTTACAT	FOXK2	Forkhead	canonical	U2OS	FOXK2	ChIP-Seq	E-MTAB-2204	Homer	FOXK2
+foxl2.motif	FoxL2(Forkhead)/Ovary-FoxL2-ChIP-Seq(GSE60858)/Homer	WWTRTAAACAVG	FoxL2	Forkhead	canonical	Ovary	FoxL2	ChIP-Seq	GSE60858	Homer	FOXL2
+foxm1.motif	FOXM1(Forkhead)/MCF7-FOXM1-ChIP-Seq(GSE72977)/Homer	TRTTTACTTW	FOXM1	Forkhead	canonical	MCF7	FOXM1	ChIP-Seq	GSE72977	Homer	FOXM1
+foxo1.motif	Foxo1(Forkhead)/RAW-Foxo1-ChIP-Seq(Fan_et_al.)/Homer	CTGTTTAC	Foxo1	Forkhead	canonical	RAW	Foxo1	ChIP-Seq	Fan_et_al.	Homer	FOXO1
+foxo3.motif	Foxo3(Forkhead)/U2OS-Foxo3-ChIP-Seq(E-MTAB-2701)/Homer	DGTAAACA	Foxo3	Forkhead	canonical	U2OS	Foxo3	ChIP-Seq	E-MTAB-2701	Homer	FOXO3
+foxp1.motif	FOXP1(Forkhead)/H9-FOXP1-ChIP-Seq(GSE31006)/Homer	NYYTGTTTACHN	FOXP1	Forkhead	canonical	H9	FOXP1	ChIP-Seq	GSE31006	Homer	FOXP1
+fra1.motif	Fra1(bZIP)/BT549-Fra1-ChIP-Seq(GSE46166)/Homer	NNATGASTCATH	Fra1	bZIP	canonical	BT549	Fra1	ChIP-Seq	GSE46166	Homer	FOSL1
+fra2.motif	Fra2(bZIP)/Striatum-Fra2-ChIP-Seq(GSE43429)/Homer	GGATGACTCATC	Fra2	bZIP	canonical	Striatum	Fra2	ChIP-Seq	GSE43429	Homer	
+fxr.motif	FXR(NR),IR1/Liver-FXR-ChIP-Seq(Chong_et_al.)/Homer	AGGTCANTGACCTN	FXR	NR	IR1	Liver	FXR	ChIP-Seq	Chong_et_al.	Homer	NR1H4
+gabp.motif	GABPA(ETS)/Jurkat-GABPa-ChIP-Seq(GSE17954)/Homer	AACCGGAAGT	GABPA	ETS	canonical	Jurkat	GABPa	ChIP-Seq	GSE17954	Homer	GABPA
+gata2.motif	Gata2(Zf)/K562-GATA2-ChIP-Seq(GSE18829)/Homer	NCCTTATCTC	Gata2	Zf	canonical	K562	GATA2	ChIP-Seq	GSE18829	Homer	GATA2
+gata3.dr4.motif	GATA3(Zf),DR4/iTreg-Gata3-ChIP-Seq(GSE20898)/Homer	AGATGKDGAGATAAG	GATA3	Zf	DR4	iTreg	Gata3	ChIP-Seq	GSE20898	Homer	
+gata3.dr8.motif	GATA3(Zf),DR8/iTreg-Gata3-ChIP-Seq(GSE20898)/Homer	AGATSTNDNNDSAGATAASN	GATA3	Zf	DR8	iTreg	Gata3	ChIP-Seq	GSE20898	Homer	
+gata3.ir3.motif	GATA(Zf),IR3/iTreg-Gata3-ChIP-Seq(GSE20898)/Homer	NNNNNBAGATAWYATCTVHN	GATA	Zf	IR3	iTreg	Gata3	ChIP-Seq	GSE20898	Homer	
+gata3.ir4.motif	GATA(Zf),IR4/iTreg-Gata3-ChIP-Seq(GSE20898)/Homer	NAGATWNBNATCTNN	GATA	Zf	IR4	iTreg	Gata3	ChIP-Seq	GSE20898	Homer	
+gata3.motif	GATA3(Zf)/iTreg-Gata3-ChIP-Seq(GSE20898)/Homer	AGATAASR	GATA3	Zf	canonical	iTreg	Gata3	ChIP-Seq	GSE20898	Homer	GATA3
+gata4.motif	Gata4(Zf)/Heart-Gata4-ChIP-Seq(GSE35151)/Homer	NBWGATAAGR	Gata4	Zf	canonical	Heart	Gata4	ChIP-Seq	GSE35151	Homer	GATA4
+gata6.motif	Gata6(Zf)/HUG1N-GATA6-ChIP-Seq(GSE51936)/Homer	YCTTATCTBN	Gata6	Zf	canonical	HUG1N	GATA6	ChIP-Seq	GSE51936	Homer	GATA6
+gata.motif	Gata1(Zf)/K562-GATA1-ChIP-Seq(GSE18829)/Homer	CAGATAAGGN	Gata1	Zf	canonical	K562	GATA1	ChIP-Seq	GSE18829	Homer	
+gata-scl.motif	GATA:SCL(Zf,bHLH)/Ter119-SCL-ChIP-Seq(GSE18720)/Homer	CGGCTGCNGNNNNCAGATAA	GATA:SCL	Zf,bHLH	canonical	Ter119	SCL	ChIP-Seq	GSE18720	Homer	
+gfi1b.motif	Gfi1b(Zf)/HPC7-Gfi1b-ChIP-Seq(GSE22178)/Homer	AAATCACTGC	Gfi1b	Zf	canonical	HPC7	Gfi1b	ChIP-Seq	GSE22178	Homer	GFI1B
+gfx.motif	GFX(?)/Promoter/Homer	ATTCTCGCGAGA	GFX	?	canonical	NA	NA	Promoter Enrichment	NA	Homer	
+gfy.motif	GFY(?)/Promoter/Homer	ACTACAATTCCC	GFY	?	canonical	NA	NA	Promoter Enrichment	NA	Homer	
+gfy-staf.motif	GFY-Staf(?,Zf)/Promoter/Homer	AACTACAATTCCCAGAATGC	GFY-Staf	?,Zf	canonical	NA	NA	Promoter Enrichment	NA	Homer	
+gli.motif	GLI3(Zf)/Limb-GLI3-ChIP-Chip(GSE11077)/Homer	CGTGGGTGGTCC	GLI3	Zf	canonical	Limb	GLI3	ChIP-Chip	GSE11077	Homer	GLI3
+gre.motif	GRE(NR),IR3/A549-GR-ChIP-Seq(GSE32465)/Homer	NAGAACAGNCTGTTCT	GRE	NR	IR3	A549	GR	ChIP-Seq	GSE32465	Homer	NR3C1
+gre-raw.motif	GRE(NR),IR3/RAW264.7-GRE-ChIP-Seq(Unpublished)/Homer	VAGRACAKWCTGTYC	GRE	NR	IR3	RAW264.7	GRE	ChIP-Seq	Unpublished	Homer	
+grhl2.motif	GRHL2(CP2)/HBE-GRHL2-ChIP-Seq(GSE46194)/Homer	AAACYKGTTWDACMRGTTTB	GRHL2	CP2	canonical	HBE	GRHL2	ChIP-Seq	GSE46194	Homer	GRHL2
+gsc.motif	GSC(Homeobox)/FrogEmbryos-GSC-ChIP-Seq(DRA000576)/Homer	RGGATTAR	GSC	Homeobox	canonical	FrogEmbryos	GSC	ChIP-Seq	DRA000576	Homer	GSC
+heb.motif	HEB(bHLH)/mES-Heb-ChIP-Seq(GSE53233)/Homer	VCAGCTGBNN	HEB	bHLH	canonical	mES	Heb	ChIP-Seq	GSE53233	Homer	
+hif1a.motif	HIF-1a(bHLH)/MCF7-HIF1a-ChIP-Seq(GSE28352)/Homer	TACGTGCV	HIF-1a	bHLH	canonical	MCF7	HIF1a	ChIP-Seq	GSE28352	Homer	HIF1A
+hif1b.motif	HIF-1b(HLH)/T47D-HIF1b-ChIP-Seq(GSE59937)/Homer	RTACGTGC	HIF-1b	HLH	canonical	T47D	HIF1b	ChIP-Seq	GSE59937	Homer	
+hif2a.motif	HIF2a(bHLH)/785_O-HIF2a-ChIP-Seq(GSE34871)/Homer	GCACGTACCC	HIF2a	bHLH	canonical	785_O	HIF2a	ChIP-Seq	GSE34871	Homer	EPAS1
+hnf1.motif	Hnf1(Homeobox)/Liver-Foxa2-Chip-Seq(GSE25694)/Homer	GGTTAAACATTAAC	Hnf1	Homeobox	canonical	Liver	Foxa2	Chip-Seq	GSE25694	Homer	HNF1A
+hnf4.motif	HNF4a(NR),DR1/HepG2-HNF4a-ChIP-Seq(GSE25021)/Homer	CAGAGGNCAAAGTCCA	HNF4a	NR	DR1	HepG2	HNF4a	ChIP-Seq	GSE25021	Homer	HNF4A
+hnf6.motif	HNF6(Homeobox)/Liver-Hnf6-ChIP-Seq(ERP000394)/Homer	NTATYGATCH	HNF6	Homeobox	canonical	Liver	Hnf6	ChIP-Seq	ERP000394	Homer	ONECUT1
+hoxa2.motif	HOXA2(Homeobox)/mES-Hoxa2-ChIP-Seq(Donaldson_et_al.)/Homer	GYCATCMATCAT	HOXA2	Homeobox	canonical	mES	Hoxa2	ChIP-Seq	Donaldson_et_al.	Homer	HOXA2
+hoxa9.motif	HOXA9(Homeobox)/HSC-Hoxa9-ChIP-Seq(GSE33509)/Homer	GGCCATAAATCA	HOXA9	Homeobox	canonical	HSC	Hoxa9	ChIP-Seq	GSE33509	Homer	HOXA9
+hoxb13.motif	HOXB13(Homeobox)/ProstateTumor-HOXB13-ChIP-Seq(GSE56288)/Homer	TTTTATKRGG	HOXB13	Homeobox	canonical	ProstateTumor	HOXB13	ChIP-Seq	GSE56288	Homer	HOXB13
+hoxb4.motif	Hoxb4(Homeobox)/ES-Hoxb4-ChIP-Seq(GSE34014)/Homer	TGATTRATGGCY	Hoxb4	Homeobox	canonical	ES	Hoxb4	ChIP-Seq	GSE34014	Homer	HOXB4
+hoxc9.motif	Hoxc9(Homeobox)/Ainv15-Hoxc9-ChIP-Seq(GSE21812)/Homer	GGCCATAAATCA	Hoxc9	Homeobox	canonical	Ainv15	Hoxc9	ChIP-Seq	GSE21812	Homer	HOXC9
+hoxd13.motif	HOXD13(Homeobox)/Chicken-Hoxd13-ChIP-Seq(GSE38910)/Homer	NCYAATAAAA	HOXD13	Homeobox	canonical	Chicken	Hoxd13	ChIP-Seq	GSE38910	Homer	HOXD13
+hsf1.motif	HRE(HSF)/HepG2-HSF1-ChIP-Seq(GSE31477)/Homer	NNTTCTGGAANNTTCTAGAA	HRE	HSF	canonical	HepG2	HSF1	ChIP-Seq	GSE31477	Homer	HSF1
+hsf.motif	HRE(HSF)/Striatum-HSF1-ChIP-Seq(GSE38000)/Homer	TTCTAGAABNTTCTA	HRE	HSF	canonical	Striatum	HSF1	ChIP-Seq	GSE38000	Homer	
+irf1.motif	IRF1(IRF)/PBMC-IRF1-ChIP-Seq(GSE43036)/Homer	GAAAGTGAAAGT	IRF1	IRF	canonical	PBMC	IRF1	ChIP-Seq	GSE43036	Homer	IRF1
+irf2.motif	IRF2(IRF)/Erythroblas-IRF2-ChIP-Seq(GSE36985)/Homer	GAAASYGAAASY	IRF2	IRF	canonical	Erythroblas	IRF2	ChIP-Seq	GSE36985	Homer	IRF2
+irf4.motif	IRF4(IRF)/GM12878-IRF4-ChIP-Seq(GSE32465)/Homer	ACTGAAACCA	IRF4	IRF	canonical	GM12878	IRF4	ChIP-Seq	GSE32465	Homer	IRF4
+isl1.motif	Isl1(Homeobox)/Neuron-Isl1-ChIP-Seq(GSE31456)/Homer	CTAATKGV	Isl1	Homeobox	canonical	Neuron	Isl1	ChIP-Seq	GSE31456	Homer	ISL1
+isre.motif	ISRE(IRF)/ThioMac-LPS-Expression(GSE23622)/Homer	AGTTTCAGTTTC	ISRE	IRF	canonical	ThioMac	LPS	Expression	GSE23622	Homer	
+jun-ap1.motif	Jun-AP1(bZIP)/K562-cJun-ChIP-Seq(GSE31477)/Homer	GATGACTCATCN	Jun-AP1	bZIP	canonical	K562	cJun	ChIP-Seq	GSE31477	Homer	JUN
+jun-cre.motif	c-Jun-CRE(bZIP)/K562-cJun-ChIP-Seq(GSE31477)/Homer	ATGACGTCATCC	c-Jun-CRE	bZIP	canonical	K562	cJun	ChIP-Seq	GSE31477	Homer	
+jund.motif	JunD(bZIP)/K562-JunD-ChIP-Seq/Homer	ATGACGTCATCN	JunD	bZIP	canonical	K562	JunD	ChIP-Seq	NA	Homer	JUND
+klf10.motif	KLF10(Zf)/HEK293-KLF10.GFP-ChIP-Seq(GSE58341)/Homer	GGGGGTGTGTCC	KLF10	Zf	canonical	HEK293	KLF10.GFP	ChIP-Seq	GSE58341	Homer	KLF10
+klf14.motif	KLF14(Zf)/HEK293-KLF14.GFP-ChIP-Seq(GSE58341)/Homer	RGKGGGCGKGGC	KLF14	Zf	canonical	HEK293	KLF14.GFP	ChIP-Seq	GSE58341	Homer	KLF14
+klf3.motif	KLF3(Zf)/MEF-Klf3-ChIP-Seq(GSE44748)/Homer	NRGCCCCRCCCHBNN	KLF3	Zf	canonical	MEF	Klf3	ChIP-Seq	GSE44748	Homer	KLF3
+klf4.motif	Klf4(Zf)/mES-Klf4-ChIP-Seq(GSE11431)/Homer	GCCACACCCA	Klf4	Zf	canonical	mES	Klf4	ChIP-Seq	GSE11431	Homer	KLF4
+klf5.motif	KLF5(Zf)/LoVo-KLF5-ChIP-Seq(GSE49402)/Homer	DGGGYGKGGC	KLF5	Zf	canonical	LoVo	KLF5	ChIP-Seq	GSE49402	Homer	KLF5
+klf9.motif	Klf9(Zf)/GBM-Klf9-ChIP-Seq(GSE62211)/Homer	GCCACRCCCACY	Klf9	Zf	canonical	GBM	Klf9	ChIP-Seq	GSE62211	Homer	KLF9
+lhx1.motif	Lhx1(Homeobox)/EmbryoCarcinoma-Lhx1-ChIP-Seq(GSE70957)/Homer	NNYTAATTAR	Lhx1	Homeobox	canonical	EmbryoCarcinoma	Lhx1	ChIP-Seq	GSE70957	Homer	LHX1
+lhx2.motif	Lhx2(Homeobox)/HFSC-Lhx2-ChIP-Seq(GSE48068)/Homer	TAATTAGN	Lhx2	Homeobox	canonical	HFSC	Lhx2	ChIP-Seq	GSE48068	Homer	LHX2
+lhx3.motif	Lhx3(Homeobox)/Neuron-Lhx3-ChIP-Seq(GSE31456)/Homer	ADBTAATTAR	Lhx3	Homeobox	canonical	Neuron	Lhx3	ChIP-Seq	GSE31456	Homer	LHX3
+limb.motif	Unknown(Homeobox)/Limb-p300-ChIP-Seq/Homer	GGCAATTAAA	Unknown	Homeobox	canonical	Limb	p300	ChIP-Seq	NA	Homer	
+lrh1.motif	Nr5a2(NR)/Pancreas-LRH1-ChIP-Seq(GSE34295)/Homer	BTCAAGGTCA	Nr5a2	NR	canonical	Pancreas	LRH1	ChIP-Seq	GSE34295	Homer	NR5A2
+lxre.motif	LXRE(NR),DR4/RAW-LXRb.biotin-ChIP-Seq(GSE21512)/Homer	GGGTTACTANAGGTCA	LXRE	NR	DR4	RAW	LXRb.biotin	ChIP-Seq	GSE21512	Homer	NR1H2
+mafa.motif	MafA(bZIP)/Islet-MafA-ChIP-Seq(GSE30298)/Homer	TGCTGACTCA	MafA	bZIP	canonical	Islet	MafA	ChIP-Seq	GSE30298	Homer	MAFA
+mafF.motif	MafF(bZIP)/HepG2-MafF-ChIP-Seq(GSE31477)/Homer	HWWGTCAGCAWWTTT	MafF	bZIP	canonical	HepG2	MafF	ChIP-Seq	GSE31477	Homer	MAFF
+mafk.motif	MafK(bZIP)/C2C12-MafK-ChIP-Seq(GSE36030)/Homer	GCTGASTCAGCA	MafK	bZIP	canonical	C2C12	MafK	ChIP-Seq	GSE36030	Homer	MAFK
+max.motif	Max(bHLH)/K562-Max-ChIP-Seq(GSE31477)/Homer	ACCACGTGGTCN	Max	bHLH	canonical	K562	Max	ChIP-Seq	GSE31477	Homer	MAX
+maz.motif	Maz(Zf)/HepG2-Maz-ChIP-Seq(GSE31477)/Homer	GGGGGGGG	Maz	Zf	canonical	HepG2	Maz	ChIP-Seq	GSE31477	Homer	MAZ
+mef2a.motif	Mef2a(MADS)/HL1-Mef2a.biotin-ChIP-Seq(GSE21529)/Homer	CCAAAAATAG	Mef2a	MADS	canonical	HL1	Mef2a.biotin	ChIP-Seq	GSE21529	Homer	MEF2A
+mef2b.motif	Mef2b(MADS)/HEK293-Mef2b.V5-ChIP-Seq(GSE67450)/Homer	GCTATTTTTGGM	Mef2b	MADS	canonical	HEK293	Mef2b.V5	ChIP-Seq	GSE67450	Homer	MEF2B
+mef2c.motif	Mef2c(MADS)/GM12878-Mef2c-ChIP-Seq(GSE32465)/Homer	DCYAAAAATAGM	Mef2c	MADS	canonical	GM12878	Mef2c	ChIP-Seq	GSE32465	Homer	MEF2C
+mef2d.motif	Mef2d(MADS)/Retina-Mef2d-ChIP-Seq(GSE61391)/Homer	GCTATTTTTAGC	Mef2d	MADS	canonical	Retina	Mef2d	ChIP-Seq	GSE61391	Homer	MEF2D
+meis1.motif	Meis1(Homeobox)/MastCells-Meis1-ChIP-Seq(GSE48085)/Homer	VGCTGWCAVB	Meis1	Homeobox	canonical	MastCells	Meis1	ChIP-Seq	GSE48085	Homer	MEIS1
+mitf.motif	MITF(bHLH)/MastCells-MITF-ChIP-Seq(GSE48085)/Homer	RTCATGTGAC	MITF	bHLH	canonical	MastCells	MITF	ChIP-Seq	GSE48085	Homer	MITF
+myba.motif	AMYB(HTH)/Testes-AMYB-ChIP-Seq(GSE44588)/Homer	TGGCAGTTGG	AMYB	HTH	canonical	Testes	AMYB	ChIP-Seq	GSE44588	Homer	MYBL1
+myb.motif	MYB(HTH)/ERMYB-Myb-ChIPSeq(GSE22095)/Homer	GGCVGTTR	MYB	HTH	canonical	ERMYB	Myb	ChIPSeq	GSE22095	Homer	MYB
+myf5.motif	Myf5(bHLH)/GM-Myf5-ChIP-Seq(GSE24852)/Homer	BAACAGCTGT	Myf5	bHLH	canonical	GM	Myf5	ChIP-Seq	GSE24852	Homer	MYF5
+myod.motif	MyoD(bHLH)/Myotube-MyoD-ChIP-Seq(GSE21614)/Homer	AGCAGCTGCTGC	MyoD	bHLH	canonical	Myotube	MyoD	ChIP-Seq	GSE21614	Homer	MYOD1
+myog.motif	MyoG(bHLH)/C2C12-MyoG-ChIP-Seq(GSE36024)/Homer	AACAGCTG	MyoG	bHLH	canonical	C2C12	MyoG	ChIP-Seq	GSE36024	Homer	MYOG
+nanog.motif	Nanog(Homeobox)/mES-Nanog-ChIP-Seq(GSE11724)/Homer	GGCCATTAAC	Nanog	Homeobox	canonical	mES	Nanog	ChIP-Seq	GSE11724	Homer	NANOG
+neurod1.motif	NeuroD1(bHLH)/Islet-NeuroD1-ChIP-Seq(GSE30298)/Homer	GCCATCTGTT	NeuroD1	bHLH	canonical	Islet	NeuroD1	ChIP-Seq	GSE30298	Homer	NEUROD1
+nf1-fox.motif	NF1:FOXA1(CTF,Forkhead)/LNCAP-FOXA1-ChIP-Seq(GSE27824)/Homer	NNTGTTTATTTTGGCA	NF1:FOXA1	CTF,Forkhead	canonical	LNCAP	FOXA1	ChIP-Seq	GSE27824	Homer	
+nf1-half.motif	NF1-halfsite(CTF)/LNCaP-NF1-ChIP-Seq(Unpublished)/Homer	TTGCCAAG	NF1-halfsite	CTF	canonical	LNCaP	NF1	ChIP-Seq	Unpublished	Homer	
+nf1.motif	NF1(CTF)/LNCAP-NF1-ChIP-Seq(Unpublished)/Homer	CTTGGCACNGTGCCAA	NF1	CTF	canonical	LNCAP	NF1	ChIP-Seq	Unpublished	Homer	NFIB
+nfat-ap1.motif	NFAT:AP1(RHD,bZIP)/Jurkat-NFATC1-ChIP-Seq(Jolma_et_al.)/Homer	GAATGGAAAAAATGAGTCAT	NFAT:AP1	RHD,bZIP	canonical	Jurkat	NFATC1	ChIP-Seq	Jolma_et_al.	Homer	
+nfatc1.motif	NFAT(RHD)/Jurkat-NFATC1-ChIP-Seq(Jolma_et_al.)/Homer	ATTTTCCATT	NFAT	RHD	canonical	Jurkat	NFATC1	ChIP-Seq	Jolma_et_al.	Homer	NFATC1
+nfe2.motif	NF-E2(bZIP)/K562-NFE2-ChIP-Seq(GSE31477)/Homer	GATGACTCAGCA	NF-E2	bZIP	canonical	K562	NFE2	ChIP-Seq	GSE31477	Homer	NFE2
+nfkb.motif	NFkB-p65-Rel(RHD)/ThioMac-LPS-Expression(GSE23622)/Homer	GGAAATTCCC	NFkB-p65-Rel	RHD	canonical	ThioMac	LPS	Expression	GSE23622	Homer	
+nfy.motif	NFY(CCAAT)/Promoter/Homer	AGCCAATCGG	NFY	CCAAT	canonical	NA	NA	Promoter Enrichment	NA	Homer	NFYA
+nkx2.1.motif	Nkx2.1(Homeobox)/LungAC-Nkx2.1-ChIP-Seq(GSE43252)/Homer	RSCACTYRAG	Nkx2.1	Homeobox	canonical	LungAC	Nkx2.1	ChIP-Seq	GSE43252	Homer	NKX2-1
+nkx2.2.motif	Nkx2.2(Homeobox)/NPC-Nkx2.2-ChIP-Seq(GSE61673)/Homer	BTBRAGTGSN	Nkx2.2	Homeobox	canonical	NPC	Nkx2.2	ChIP-Seq	GSE61673	Homer	NKX2-2
+nkx2.5.motif	Nkx2.5(Homeobox)/HL1-Nkx2.5.biotin-ChIP-Seq(GSE21529)/Homer	AASCACTCAA	Nkx2.5	Homeobox	canonical	HL1	Nkx2.5.biotin	ChIP-Seq	GSE21529	Homer	NKX2-5
+nkx3.1.motif	Nkx3.1(Homeobox)/LNCaP-Nkx3.1-ChIP-Seq(GSE28264)/Homer	AAGCACTTAA	Nkx3.1	Homeobox	canonical	LNCaP	Nkx3.1	ChIP-Seq	GSE28264	Homer	NKX3-1
+nkx6.1.motif	Nkx6.1(Homeobox)/Islet-Nkx6.1-ChIP-Seq(GSE40975)/Homer	GKTAATGR	Nkx6.1	Homeobox	canonical	Islet	Nkx6.1	ChIP-Seq	GSE40975	Homer	NKX6-1
+nmyc.motif	n-Myc(bHLH)/mES-nMyc-ChIP-Seq(GSE11431)/Homer	GNCCACGTGG	n-Myc	bHLH	canonical	mES	nMyc	ChIP-Seq	GSE11431	Homer	MYCN
+npas2.motif	NPAS2(bHLH)/Liver-NPAS2-ChIP-Seq(GSE39860)/Homer	KCCACGTGAC	NPAS2	bHLH	canonical	Liver	NPAS2	ChIP-Seq	GSE39860	Homer	NPAS2
+npas.motif	NPAS(bHLH)/Liver-NPAS-ChIP-Seq(GSE39860)/Homer	NVCACGTG	NPAS	bHLH	canonical	Liver	NPAS	ChIP-Seq	GSE39860	Homer	
+nr5a2.motif	Nr5a2(NR)/mES-Nr5a2-ChIP-Seq(GSE19019)/Homer	TTCAAGGTCA	Nr5a2	NR	canonical	mES	Nr5a2	ChIP-Seq	GSE19019	Homer	NR5A2
+nrf1.motif	NRF1(NRF)/MCF7-NRF1-ChIP-Seq(Unpublished)/Homer	CTGCGCATGCGC	NRF1	NRF	canonical	MCF7	NRF1	ChIP-Seq	Unpublished	Homer	NRF1
+nrf2.motif	Nrf2(bZIP)/Lymphoblast-Nrf2-ChIP-Seq(GSE37589)/Homer	HTGCTGAGTCAT	Nrf2	bZIP	canonical	Lymphoblast	Nrf2	ChIP-Seq	GSE37589	Homer	NFE2L2
+nrf.motif	NRF(NRF)/Promoter/Homer	GTGCGCATGCGC	NRF	NRF	canonical	NA	NA	Promoter Enrichment	NA	Homer	
+nur77.motif	Nur77(NR)/K562-NR4A1-ChIP-Seq(GSE31363)/Homer	TGACCTTTNCNT	Nur77	NR	canonical	K562	NR4A1	ChIP-Seq	GSE31363	Homer	NR4A1
+oct2.motif	Oct2(POU,Homeobox)/Bcell-Oct2-ChIP-Seq(GSE21512)/Homer	ATATGCAAAT	Oct2	POU,Homeobox	canonical	Bcell	Oct2	ChIP-Seq	GSE21512	Homer	POU2F2
+oct4.motif	Oct4(POU,Homeobox)/mES-Oct4-ChIP-Seq(GSE11431)/Homer	ATTTGCATAA	Oct4	POU,Homeobox	canonical	mES	Oct4	ChIP-Seq	GSE11431	Homer	POU5F1
+oct4-sox17.motif	Oct4:Sox17(POU,Homeobox,HMG)/F9-Sox17-ChIP-Seq(GSE44553)/Homer	CCATTGTATGCAAAT	Oct4:Sox17	POU,Homeobox,HMG	canonical	F9	Sox17	ChIP-Seq	GSE44553	Homer	
+oct4-sox2.motif	OCT4-SOX2-TCF-NANOG(POU,Homeobox,HMG)/mES-Oct4-ChIP-Seq(GSE11431)/Homer	ATTTGCATAACAATG	OCT4-SOX2-TCF-NANOG	POU,Homeobox,HMG	canonical	mES	Oct4	ChIP-Seq	GSE11431	Homer	
+oct6.motif	Oct6(POU,Homeobox)/NPC-Pou3f1-ChIP-Seq(GSE35496)/Homer	WATGCAAATGAG	Oct6	POU,Homeobox	canonical	NPC	Pou3f1	ChIP-Seq	GSE35496	Homer	POU3F1
+oct.ir1.motif	OCT:OCT(POU,Homeobox,IR1)/NPC-Brn2-ChIP-Seq(GSE35496)/Homer	ATGAATWATTCATGA	OCT:OCT	POU,Homeobox,IR1	canonical	NPC	Brn2	ChIP-Seq	GSE35496	Homer	
+oct.ir.motif	OCT:OCT(POU,Homeobox)/NPC-Brn1-ChIP-Seq(GSE35496)/Homer	ATGAATATTCATGAG	OCT:OCT	POU,Homeobox	canonical	NPC	Brn1	ChIP-Seq	GSE35496	Homer	
+olig2.motif	Olig2(bHLH)/Neuron-Olig2-ChIP-Seq(GSE30882)/Homer	RCCATMTGTT	Olig2	bHLH	canonical	Neuron	Olig2	ChIP-Seq	GSE30882	Homer	OLIG2
+otx2.motif	Otx2(Homeobox)/EpiLC-Otx2-ChIP-Seq(GSE56098)/Homer	NYTAATCCYB	Otx2	Homeobox	canonical	EpiLC	Otx2	ChIP-Seq	GSE56098	Homer	OTX2
+p50.motif	NFkB-p50,p52(RHD)/Monocyte-p50-ChIP-Chip(Schreiber_et_al.)/Homer	GGGGGAATCCCC	NFkB-p50,p52	RHD	canonical	Monocyte	p50	ChIP-Chip	Schreiber_et_al.	Homer	NFKB1
+p53.motif	p53(p53)/Saos-p53-ChIP-Seq(GSE15780)/Homer	AACATGCCCAGACATGCCCN	p53	p53	canonical	Saos	p53	ChIP-Seq	GSE15780	Homer	TP53
+p53-myc.motif	p53(p53)/mES-cMyc-ChIP-Seq(GSE11431)/Homer	ACATGCCCGGGCAT	p53	p53	canonical	mES	cMyc	ChIP-Seq	GSE11431	Homer	
+p63.motif	p63(p53)/Keratinocyte-p63-ChIP-Seq(GSE17611)/Homer	NNNGCATGTCCNGACATGCC	p63	p53	canonical	Keratinocyte	p63	ChIP-Seq	GSE17611	Homer	TP63
+p65.motif	NFkB-p65(RHD)/GM12787-p65-ChIP-Seq(GSE19485)/Homer	AGGGGATTTCCC	NFkB-p65	RHD	canonical	GM12787	p65	ChIP-Seq	GSE19485	Homer	RELA
+pax3-fkhr.motif	PAX3:FKHR-fusion(Paired,Homeobox)/Rh4-PAX3:FKHR-ChIP-Seq(GSE19063)/Homer	ACCGTGACTAATTNN	PAX3:FKHR-fusion	Paired,Homeobox	canonical	Rh4	PAX3:FKHR	ChIP-Seq	GSE19063	Homer	
+pax5.motif	PAX5(Paired,Homeobox)/GM12878-PAX5-ChIP-Seq(GSE32465)/Homer	GCAGCCAAGCGTGACC	PAX5	Paired,Homeobox	canonical	GM12878	PAX5	ChIP-Seq	GSE32465	Homer	PAX5
+pax5-short.motif	PAX5(Paired,Homeobox),condensed/GM12878-PAX5-ChIP-Seq(GSE32465)/Homer	GTCACGCTCNCTGA	PAX5	Paired,Homeobox	condensed	GM12878	PAX5	ChIP-Seq	GSE32465	Homer	
+pax6.motif	PAX6(Paired,Homeobox)/Forebrain-Pax6-ChIP-Seq(GSE66961)/Homer	NGTGTTCAVTSAAGCGKAAA	PAX6	Paired,Homeobox	canonical	Forebrain	Pax6	ChIP-Seq	GSE66961	Homer	PAX6
+pax7-longest.motif	Pax7(Paired,Homeobox),longest/Myoblast-Pax7-ChIP-Seq(GSE25064)/Homer	NTAATTDGCYAATTANNWWD	Pax7	Paired,Homeobox	longest	Myoblast	Pax7	ChIP-Seq	GSE25064	Homer	
+pax7-long.motif	Pax7(Paired,Homeobox),long/Myoblast-Pax7-ChIP-Seq(GSE25064)/Homer	TAATCHGATTAC	Pax7	Paired,Homeobox	long	Myoblast	Pax7	ChIP-Seq	GSE25064	Homer	
+pax7.motif	Pax7(Paired,Homeobox)/Myoblast-Pax7-ChIP-Seq(GSE25064)/Homer	TAATCAATTA	Pax7	Paired,Homeobox	canonical	Myoblast	Pax7	ChIP-Seq	GSE25064	Homer	PAX7
+pax8.motif	Pax8(Paired,Homeobox)/Thyroid-Pax8-ChIP-Seq(GSE26938)/Homer	GTCATGCHTGRCTGS	Pax8	Paired,Homeobox	canonical	Thyroid	Pax8	ChIP-Seq	GSE26938	Homer	PAX8
+pbx1.motif	PBX1(Homeobox)/MCF7-PBX1-ChIP-Seq(GSE28007)/Homer	GSCTGTCACTCA	PBX1	Homeobox	canonical	MCF7	PBX1	ChIP-Seq	GSE28007	Homer	PBX1
+pbx3.motif	Pbx3(Homeobox)/GM12878-PBX3-ChIP-Seq(GSE32465)/Homer	CCTGTCAATCAN	Pbx3	Homeobox	canonical	GM12878	PBX3	ChIP-Seq	GSE32465	Homer	PBX3
+pdx1.motif	Pdx1(Homeobox)/Islet-Pdx1-ChIP-Seq(SRA008281)/Homer	TCATCAATCA	Pdx1	Homeobox	canonical	Islet	Pdx1	ChIP-Seq	SRA008281	Homer	PDX1
+pgr.motif	PGR(NR)/EndoStromal-PGR-ChIP-Seq(GSE69539)/Homer	AAGAACATWHTGTTC	PGR	NR	canonical	EndoStromal	PGR	ChIP-Seq	GSE69539	Homer	PGR
+phox2a.motif	Phox2a(Homeobox)/Neuron-Phox2a-ChIP-Seq(GSE31456)/Homer	YTAATYNRATTA	Phox2a	Homeobox	canonical	Neuron	Phox2a	ChIP-Seq	GSE31456	Homer	PHOX2A
+pit1-long.motif	Pit1+1bp(Homeobox)/GCrat-Pit1-ChIP-Seq(GSE58009)/Homer	ATGCATAATTCA	Pit1+1bp	Homeobox	canonical	GCrat	Pit1	ChIP-Seq	GSE58009	Homer	
+pit1.motif	Pit1(Homeobox)/GCrat-Pit1-ChIP-Seq(GSE58009)/Homer	ATGMATATDC	Pit1	Homeobox	canonical	GCrat	Pit1	ChIP-Seq	GSE58009	Homer	POU1F1
+pitx1-ebox.motif	Pitx1:Ebox(Homeobox,bHLH)/Hindlimb-Pitx1-ChIP-Seq(GSE41591)/Homer	YTAATTRAWWCCAGATGT	Pitx1:Ebox	Homeobox,bHLH	canonical	Hindlimb	Pitx1	ChIP-Seq	GSE41591	Homer	
+pitx1.motif	Pitx1(Homeobox)/Chicken-Pitx1-ChIP-Seq(GSE38910)/Homer	TAATCCCN	Pitx1	Homeobox	canonical	Chicken	Pitx1	ChIP-Seq	GSE38910	Homer	PITX1
+pknox1.motif	Pknox1(Homeobox)/ES-Prep1-ChIP-Seq(GSE63282)/Homer	SCTGTCAVTCAV	Pknox1	Homeobox	canonical	ES	Prep1	ChIP-Seq	GSE63282	Homer	PKNOX1
+pparg.motif	PPARE(NR),DR1/3T3L1-Pparg-ChIP-Seq(GSE13511)/Homer	TGACCTTTGCCCCA	PPARE	NR	DR1	3T3L1	Pparg	ChIP-Seq	GSE13511	Homer	PPARG
+prdm14.motif	PRDM14(Zf)/H1-PRDM14-ChIP-Seq(GSE22767)/Homer	AGGTCTCTAACC	PRDM14	Zf	canonical	H1	PRDM14	ChIP-Seq	GSE22767	Homer	PRDM14
+prdm1.motif	PRDM1(Zf)/Hela-PRDM1-ChIP-Seq(GSE31477)/Homer	ACTTTCACTTTC	PRDM1	Zf	canonical	Hela	PRDM1	ChIP-Seq	GSE31477	Homer	PRDM1
+prdm9.motif	PRDM9(Zf)/Testis-DMC1-ChIP-Seq(GSE35498)/Homer	ADGGYAGYAGCATCT	PRDM9	Zf	canonical	Testis	DMC1	ChIP-Seq	GSE35498	Homer	PRDM9
+pr.motif	PR(NR)/T47D-PR-ChIP-Seq(GSE31130)/Homer	VAGRACAKNCTGTBC	PR	NR	canonical	T47D	PR	ChIP-Seq	GSE31130	Homer	
+ptf1a.motif	Ptf1a(bHLH)/Panc1-Ptf1a-ChIP-Seq(GSE47459)/Homer	ACAGCTGTTN	Ptf1a	bHLH	canonical	Panc1	Ptf1a	ChIP-Seq	GSE47459	Homer	PTF1A
+pu1-irf8.motif	PU.1:IRF8(ETS:IRF)/pDC-Irf8-ChIP-Seq(GSE66899)/Homer	GGAAGTGAAAST	PU.1:IRF8	ETS:IRF	canonical	pDC	Irf8	ChIP-Seq	GSE66899	Homer	IRF8
+pu1-irf.motif	PU.1-IRF(ETS:IRF)/Bcell-PU.1-ChIP-Seq(GSE21512)/Homer	CGGAAGTGAAAC	PU.1-IRF	ETS:IRF	canonical	Bcell	PU.1	ChIP-Seq	GSE21512	Homer	
+pu1.motif	PU.1(ETS)/ThioMac-PU.1-ChIP-Seq(GSE21512)/Homer	AGAGGAAGTG	PU.1	ETS	canonical	ThioMac	PU.1	ChIP-Seq	GSE21512	Homer	SPI1
+rarg.motif	RARg(NR)/ES-RARg-ChIP-Seq(GSE30538)/Homer	AGGTCAAGGTCA	RARg	NR	canonical	ES	RARg	ChIP-Seq	GSE30538	Homer	RARG
+rbpj1-ebox.motif	RBPJ:Ebox(?,bHLH)/Panc1-Rbpj1-ChIP-Seq(GSE47459)/Homer	GGGRAARRGRMCAGMTG	RBPJ:Ebox	?,bHLH	canonical	Panc1	Rbpj1	ChIP-Seq	GSE47459	Homer	
+rbpj1.motif	Rbpj1(?)/Panc1-Rbpj1-ChIP-Seq(GSE47459)/Homer	HTTTCCCASG	Rbpj1	?	canonical	Panc1	Rbpj1	ChIP-Seq	GSE47459	Homer	RBPJ
+rest.motif	REST-NRSF(Zf)/Jurkat-NRSF-ChIP-Seq/Homer	GGAGCTGTCCATGGTGCTGA	REST-NRSF	Zf	canonical	Jurkat	NRSF	ChIP-Seq	NA	Homer	REST
+reverb.motif	Reverb(NR),DR2/RAW-Reverba.biotin-ChIP-Seq(GSE45914)/Homer	GTAGGTCACTGGGTCA	Reverb	NR	DR2	RAW	Reverba.biotin	ChIP-Seq	GSE45914	Homer	NR1D1
+rfx1.motif	Rfx1(HTH)/NPC-H3K4me1-ChIP-Seq(GSE16256)/Homer	GGTTGCCATGGCAA	Rfx1	HTH	canonical	NPC	H3K4me1	ChIP-Seq	GSE16256	Homer	RFX1
+rfx2.motif	Rfx2(HTH)/LoVo-RFX2-ChIP-Seq(GSE49402)/Homer	GTTGCCATGGCAACM	Rfx2	HTH	canonical	LoVo	RFX2	ChIP-Seq	GSE49402	Homer	RFX2
+rfx3.motif	RFX(HTH)/K562-RFX3-ChIP-Seq(SRA012198)/Homer	CGGTTGCCATGGCAAC	RFX	HTH	canonical	K562	RFX3	ChIP-Seq	SRA012198	Homer	RFX3
+rfx5.motif	Rfx5(HTH)/GM12878-Rfx5-ChIP-Seq(GSE31477)/Homer	SCCTAGCAACAG	Rfx5	HTH	canonical	GM12878	Rfx5	ChIP-Seq	GSE31477	Homer	RFX5
+ronin.motif	Ronin(THAP)/ES-Thap11-ChIP-Seq(GSE51522)/Homer	RACTACAACTCCCAGVAKGC	Ronin	THAP	canonical	ES	Thap11	ChIP-Seq	GSE51522	Homer	THAP11
+rorc.motif	RORgt(NR)/EL4-RORgt.Flag-ChIP-Seq(GSE56019)/Homer	AAYTAGGTCA	RORgt	NR	canonical	EL4	RORgt.Flag	ChIP-Seq	GSE56019	Homer	RORC
+runx1m.motif	RUNX(Runt)/HPC7-Runx1-ChIP-Seq(GSE22178)/Homer	CAAACCACAG	RUNX	Runt	canonical	HPC7	Runx1	ChIP-Seq	GSE22178	Homer	
+runx1.motif	RUNX1(Runt)/Jurkat-RUNX1-ChIP-Seq(GSE29180)/Homer	AAACCACAAA	RUNX1	Runt	canonical	Jurkat	RUNX1	ChIP-Seq	GSE29180	Homer	RUNX1
+runx2.motif	RUNX2(Runt)/PCa-RUNX2-ChIP-Seq(GSE33889)/Homer	NWAACCACADNN	RUNX2	Runt	canonical	PCa	RUNX2	ChIP-Seq	GSE33889	Homer	RUNX2
+runx.motif	RUNX-AML(Runt)/CD4+-PolII-ChIP-Seq(Barski_et_al.)/Homer	GCTGTGGTTT	RUNX-AML	Runt	canonical	CD4+	PolII	ChIP-Seq	Barski_et_al.	Homer	
+rxr.motif	RXR(NR),DR1/3T3L1-RXR-ChIP-Seq(GSE13511)/Homer	TAGGGCAAAGGTCA	RXR	NR	DR1	3T3L1	RXR	ChIP-Seq	GSE13511	Homer	RXRA
+scl.motif	SCL(bHLH)/HPC7-Scl-ChIP-Seq(GSE13511)/Homer	ANCAGCTG	SCL	bHLH	canonical	HPC7	Scl	ChIP-Seq	GSE13511	Homer	TAL1
+sf1.motif	SF1(NR)/H295R-Nr5a1-ChIP-Seq(GSE44220)/Homer	CAAGGHCANV	SF1	NR	canonical	H295R	Nr5a1	ChIP-Seq	GSE44220	Homer	NR5A1
+six1.motif	Six1(Homeobox)/Myoblast-Six1-ChIP-Chip(GSE20150)/Homer	GKVTCADRTTWC	Six1	Homeobox	canonical	Myoblast	Six1	ChIP-Chip	GSE20150	Homer	SIX1
+six2.motif	Six2(Homeobox)/NephronProgenitor-Six2-ChIP-Seq(GSE39837)/Homer	GWAAYHTGAKMC	Six2	Homeobox	canonical	NephronProgenitor	Six2	ChIP-Seq	GSE39837	Homer	SIX2
+smad2.motif	Smad2(MAD)/ES-SMAD2-ChIP-Seq(GSE29422)/Homer	CTGTCTGG	Smad2	MAD	canonical	ES	SMAD2	ChIP-Seq	GSE29422	Homer	SMAD2
+smad3.motif	Smad3(MAD)/NPC-Smad3-ChIP-Seq(GSE36673)/Homer	TWGTCTGV	Smad3	MAD	canonical	NPC	Smad3	ChIP-Seq	GSE36673	Homer	SMAD3
+smad4.motif	Smad4(MAD)/ESC-SMAD4-ChIP-Seq(GSE29422)/Homer	VBSYGTCTGG	Smad4	MAD	canonical	ESC	SMAD4	ChIP-Seq	GSE29422	Homer	SMAD4
+sox10.motif	Sox10(HMG)/SciaticNerve-Sox3-ChIP-Seq(GSE35132)/Homer	CCWTTGTYYB	Sox10	HMG	canonical	SciaticNerve	Sox3	ChIP-Seq	GSE35132	Homer	SOX10
+sox15.motif	Sox15(HMG)/CPA-Sox15-ChIP-Seq(GSE62909)/Homer	RAACAATGGN	Sox15	HMG	canonical	CPA	Sox15	ChIP-Seq	GSE62909	Homer	SOX15
+sox2.motif	Sox2(HMG)/mES-Sox2-ChIP-Seq(GSE11431)/Homer	CCCATTGTTC	Sox2	HMG	canonical	mES	Sox2	ChIP-Seq	GSE11431	Homer	SOX2
+sox3.motif	Sox3(HMG)/NPC-Sox3-ChIP-Seq(GSE33059)/Homer	CCWTTGTY	Sox3	HMG	canonical	NPC	Sox3	ChIP-Seq	GSE33059	Homer	SOX3
+sox4.motif	Sox4(HMG)/proB-Sox4-ChIP-Seq(GSE50066)/Homer	YCTTTGTTCC	Sox4	HMG	canonical	proB	Sox4	ChIP-Seq	GSE50066	Homer	SOX4
+sox6.motif	Sox6(HMG)/Myotubes-Sox6-ChIP-Seq(GSE32627)/Homer	CCATTGTTNY	Sox6	HMG	canonical	Myotubes	Sox6	ChIP-Seq	GSE32627	Homer	SOX6
+sox9.motif	Sox9(HMG)/Limb-SOX9-ChIP-Seq(GSE73225)/Homer	AGGVNCCTTTGT	Sox9	HMG	canonical	Limb	SOX9	ChIP-Seq	GSE73225	Homer	SOX9
+sp1.motif	Sp1(Zf)/Promoter/Homer	GGCCCCGCCCCC	Sp1	Zf	canonical	NA	NA	Promoter Enrichment	NA	Homer	SP1
+spdef.motif	SPDEF(ETS)/VCaP-SPDEF-ChIP-Seq(SRA014231)/Homer	ACATCCTGGT	SPDEF	ETS	canonical	VCaP	SPDEF	ChIP-Seq	SRA014231	Homer	SPDEF
+spib.motif	SpiB(ETS)/OCILY3-SPIB-ChIP-Seq(GSE56857)/Homer	AAAGRGGAAGTG	SpiB	ETS	canonical	OCILY3	SPIB	ChIP-Seq	GSE56857	Homer	SPIB
+srebp1a.motif	Srebp1a(bHLH)/HepG2-Srebp1a-ChIP-Seq(GSE31477)/Homer	ATCACCCCAT	Srebp1a	bHLH	canonical	HepG2	Srebp1a	ChIP-Seq	GSE31477	Homer	SREBF1
+srebp2.motif	Srebp2(bHLH)/HepG2-Srebp2-ChIP-Seq(GSE31477)/Homer	CGGTCACGCCAC	Srebp2	bHLH	canonical	HepG2	Srebp2	ChIP-Seq	GSE31477	Homer	SREBF2
+srf.motif	CArG(MADS)/PUER-Srf-ChIP-Seq(Sullivan_et_al.)/Homer	CCATATATGGNA	CArG	MADS	canonical	PUER	Srf	ChIP-Seq	Sullivan_et_al.	Homer	SRF
+staf.motif	ZNF143|STAF(Zf)/CUTLL-ZNF143-ChIP-Seq(GSE29600)/Homer	ATTTCCCAGVAKSCY	ZNF143|STAF	Zf	canonical	CUTLL	ZNF143	ChIP-Seq	GSE29600	Homer	ZNF143
+stat1.motif	STAT1(Stat)/HelaS3-STAT1-ChIP-Seq(GSE12782)/Homer	NATTTCCNGGAAAT	STAT1	Stat	canonical	HelaS3	STAT1	ChIP-Seq	GSE12782	Homer	STAT1
+stat3.il23.motif	Stat3+il21(Stat)/CD4-Stat3-ChIP-Seq(GSE19198)/Homer	CNCTTCCNGGAAGN	Stat3+il21	Stat	canonical	CD4	Stat3	ChIP-Seq	GSE19198	Homer	
+stat3.motif	Stat3(Stat)/mES-Stat3-ChIP-Seq(GSE11431)/Homer	CTTCCGGGAA	Stat3	Stat	canonical	mES	Stat3	ChIP-Seq	GSE11431	Homer	STAT3
+stat4.motif	STAT4(Stat)/CD4-Stat4-ChIP-Seq(GSE22104)/Homer	NTTTCCAGGAAA	STAT4	Stat	canonical	CD4	Stat4	ChIP-Seq	GSE22104	Homer	STAT4
+stat5.motif	STAT5(Stat)/mCD4+-Stat5-ChIP-Seq(GSE12346)/Homer	ATTTCTNAGAAA	STAT5	Stat	canonical	mCD4+	Stat5	ChIP-Seq	GSE12346	Homer	STAT5A
+stat6.2.motif	STAT6(Stat)/Macrophage-Stat6-ChIP-Seq(GSE38377)/Homer	TTCCKNAGAA	STAT6	Stat	canonical	Macrophage	Stat6	ChIP-Seq	GSE38377	Homer	
+stat6.motif	STAT6(Stat)/CD4-Stat6-ChIP-Seq(GSE22104)/Homer	ANTTCTTAAGAA	STAT6	Stat	canonical	CD4	Stat6	ChIP-Seq	GSE22104	Homer	STAT6
+t1isre.motif	T1ISRE(IRF)/ThioMac-Ifnb-Expression/Homer	ACTTTCGTTTCT	T1ISRE	IRF	canonical	ThioMac	Ifnb	Expression	NA	Homer	
+tata.motif	TATA-Box(TBP)/Promoter/Homer	CCTTTTATAGCC	TATA-Box	TBP	canonical	NA	NA	Promoter Enrichment	NA	Homer	TBP
+tbet.motif	Tbet(T-box)/CD8-Tbet-ChIP-Seq(GSE33802)/Homer	AGGTGTGAAM	Tbet	T-box	canonical	CD8	Tbet	ChIP-Seq	GSE33802	Homer	TBX21
+tbox-smad.motif	Tbox:Smad(T-box,MAD)/ESCd5-Smad2_3-ChIP-Seq(GSE29422)/Homer	AGGTGHCAGACA	Tbox:Smad	T-box,MAD	canonical	ESCd5	Smad2_3	ChIP-Seq	GSE29422	Homer	
+tbx20.motif	Tbx20(T-box)/Heart-Tbx20-ChIP-Seq(GSE29636)/Homer	GGTGYTGACAGS	Tbx20	T-box	canonical	Heart	Tbx20	ChIP-Seq	GSE29636	Homer	TBX20
+tbx5.motif	Tbx5(T-box)/HL1-Tbx5.biotin-ChIP-Seq(GSE21529)/Homer	AGGTGTCA	Tbx5	T-box	canonical	HL1	Tbx5.biotin	ChIP-Seq	GSE21529	Homer	TBX5
+tcf12.motif	Tcf12(bHLH)/GM12878-Tcf12-ChIP-Seq(GSE32465)/Homer	ACAGCTGCTG	Tcf12	bHLH	canonical	GM12878	Tcf12	ChIP-Seq	GSE32465	Homer	TCF12
+tcf21.motif	Tcf21(bHLH)/ArterySmoothMuscle-Tcf21-ChIP-Seq(GSE61369)/Homer	NAACAGCTGG	Tcf21	bHLH	canonical	ArterySmoothMuscle	Tcf21	ChIP-Seq	GSE61369	Homer	TCF21
+tcf3.motif	Tcf3(HMG)/mES-Tcf3-ChIP-Seq(GSE11724)/Homer	ACATCAAAGG	Tcf3	HMG	canonical	mES	Tcf3	ChIP-Seq	GSE11724	Homer	TCF7L1
+tcf4.motif	Tcf4(HMG)/Hct116-Tcf4-ChIP-Seq(SRA012054)/Homer	ACATCAAAGGGA	Tcf4	HMG	canonical	Hct116	Tcf4	ChIP-Seq	SRA012054	Homer	TCF7L2
+tcf7l2.motif	TCFL2(HMG)/K562-TCF7L2-ChIP-Seq(GSE29196)/Homer	ACWTCAAAGG	TCFL2	HMG	canonical	K562	TCF7L2	ChIP-Seq	GSE29196	Homer	
+tcfcp2l1.motif	Tcfcp2l1(CP2)/mES-Tcfcp2l1-ChIP-Seq(GSE11431)/Homer	NAAACCGGTTCAAACCGGTT	Tcfcp2l1	CP2	canonical	mES	Tcfcp2l1	ChIP-Seq	GSE11431	Homer	TFCP2L1
+tead2.motif	TEAD2(TEA)/Py2T-Tead2-ChIP-Seq(GSE55709)/Homer	CCWGGAATGY	TEAD2	TEA	canonical	Py2T	Tead2	ChIP-Seq	GSE55709	Homer	TEAD2
+tead4.motif	TEAD4(TEA)/Tropoblast-Tead4-ChIP-Seq(GSE37350)/Homer	CCWGGAATGY	TEAD4	TEA	canonical	Tropoblast	Tead4	ChIP-Seq	GSE37350	Homer	TEAD4
+tead.motif	TEAD(TEA)/Fibroblast-PU.1-ChIP-Seq(Unpublished)/Homer	NCTGGAATGC	TEAD	TEA	canonical	Fibroblast	PU.1	ChIP-Seq	Unpublished	Homer	
+tgif1.motif	Tgif1(Homeobox)/mES-Tgif1-ChIP-Seq(GSE55404)/Homer	YTGWCADY	Tgif1	Homeobox	canonical	mES	Tgif1	ChIP-Seq	GSE55404	Homer	TGIF1
+tgif2.motif	Tgif2(Homeobox)/mES-Tgif2-ChIP-Seq(GSE55404)/Homer	TGTCANYT	Tgif2	Homeobox	canonical	mES	Tgif2	ChIP-Seq	GSE55404	Homer	TGIF2
+tlx.motif	Tlx?(NR)/NPC-H3K4me1-ChIP-Seq(GSE16256)/Homer	CTGGCAGGCTGCCA	Tlx?	NR	canonical	NPC	H3K4me1	ChIP-Seq	GSE16256	Homer	NR2E1
+tr4.motif	TR4(NR),DR1/Hela-TR4-ChIP-Seq(GSE24685)/Homer	GAGGTCAAAGGTCA	TR4	NR	DR1	Hela	TR4	ChIP-Seq	GSE24685	Homer	NR2C2
+tra.motif	THRa(NR)/C17.2-THRa-ChIP-Seq(GSE38347)/Homer	GGTCANYTGAGGWCA	THRa	NR	canonical	C17.2	THRa	ChIP-Seq	GSE38347	Homer	THRA
+trb.motif	THRb(NR)/Liver-NR1A2-ChIP-Seq(GSE52613)/Homer	TRAGGTCA	THRb	NR	canonical	Liver	NR1A2	ChIP-Seq	GSE52613	Homer	THRB
+usf1.motif	USF1(bHLH)/GM12878-Usf1-ChIP-Seq(GSE32465)/Homer	GGTCACGTGA	USF1	bHLH	canonical	GM12878	Usf1	ChIP-Seq	GSE32465	Homer	USF1
+usf2.motif	Usf2(bHLH)/C2C12-Usf2-ChIP-Seq(GSE36030)/Homer	GTCACGTGGT	Usf2	bHLH	canonical	C2C12	Usf2	ChIP-Seq	GSE36030	Homer	USF2
+vdr.motif	VDR(NR),DR3/GM10855-VDR+vitD-ChIP-Seq(GSE22484)/Homer	NGAGGTCANNGAGTTCANNN	VDR	NR	DR3	GM10855	VDR+vitD	ChIP-Seq	GSE22484	Homer	VDR
+xbox.motif	X-box(HTH)/NPC-H3K4me1-ChIP-Seq(GSE16256)/Homer	GGTTGCCATGGCAA	X-box	HTH	canonical	NPC	H3K4me1	ChIP-Seq	GSE16256	Homer	
+yy1.motif	YY1(Zf)/Promoter/Homer	CAAGATGGCGGC	YY1	Zf	canonical	NA	NA	Promoter Enrichment	NA	Homer	YY1
+zbtb12.motif	ZBTB12(Zf)/HEK293-ZBTB12.GFP-ChIP-Seq(GSE58341)/Homer	NGNTCTAGAACCNGV	ZBTB12	Zf	canonical	HEK293	ZBTB12.GFP	ChIP-Seq	GSE58341	Homer	ZBTB12
+zbtb18.motif	ZBTB18(Zf)/HEK293-ZBTB18.GFP-ChIP-Seq(GSE58341)/Homer	AACATCTGGA	ZBTB18	Zf	canonical	HEK293	ZBTB18.GFP	ChIP-Seq	GSE58341	Homer	ZBTB18
+zbtb33.motif	ZBTB33(Zf)/GM12878-ZBTB33-ChIP-Seq(GSE32465)/Homer	GGNTCTCGCGAGAAC	ZBTB33	Zf	canonical	GM12878	ZBTB33	ChIP-Seq	GSE32465	Homer	ZBTB33
+zfp3.motif	ZFP3(Zf)/HEK293-ZFP3.GFP-ChIP-Seq(GSE58341)/Homer	GGGTTTTGAAGGATGARTAGGAGTT	ZFP3	Zf	canonical	HEK293	ZFP3.GFP	ChIP-Seq	GSE58341	Homer		ZFP3
+zfp809.motif	Zfp809(Zf)/ES-Zfp809-ChIP-Seq(GSE70799)/Homer	GGGGCTYGKCTGGGA	Zfp809	Zf	canonical	ES	Zfp809	ChIP-Seq	GSE70799	Homer	
+zfx.motif	ZFX(Zf)/mES-Zfx-ChIP-Seq(GSE11431)/Homer	AGGCCTGG	ZFX	Zf	canonical	mES	Zfx	ChIP-Seq	GSE11431	Homer	ZFX
+zic.motif	Zic(Zf)/Cerebellum-ZIC1.2-ChIP-Seq(GSE60731)/Homer	CCTGCTGAGH	Zic	Zf	canonical	Cerebellum	ZIC1.2	ChIP-Seq	GSE60731	Homer	ZIC1
+znf136.motif	ZNF136(Zf)/HEK293-ZNF136.GFP-ChIP-Seq(GSE58341)/Homer	YTKGATAHAGTATTCTWGGTNGGCA	ZNF136	Zf	canonical	HEK293	ZNF136.GFP	ChIP-Seq	GSE58341	Homer	ZNF136
+znf165.motif	ZNF165(Zf)/WHIM12-ZNF165-ChIP-Seq(GSE65937)/Homer	AAGGKGRCGCAGGCA	ZNF165	Zf	canonical	WHIM12	ZNF165	ChIP-Seq	GSE65937	Homer	ZNF165
+znf16.motif	ZNF16(Zf)/HEK293-ZNF16.GFP-ChIP-Seq(GSE58341)/Homer	MACCTTCYATGGCTCCCTAKTGCCY	ZNF16	Zf	canonical	HEK293	ZNF16.GFP	ChIP-Seq	GSE58341	Homer	ZNF16
+znf189.motif	ZNF189(Zf)/HEK293-ZNF189.GFP-ChIP-Seq(GSE58341)/Homer	TGGAACAGMA	ZNF189	Zf	canonical	HEK293	ZNF189.GFP	ChIP-Seq	GSE58341	Homer	ZNF189
+znf263.motif	Znf263(Zf)/K562-Znf263-ChIP-Seq(GSE31477)/Homer	CNGTCCTCCC	Znf263	Zf	canonical	K562	Znf263	ChIP-Seq	GSE31477	Homer	ZNF263
+znf264.motif	ZNF264(Zf)/HEK293-ZNF264.GFP-ChIP-Seq(GSE58341)/Homer	RGGGCACTAACY	ZNF264	Zf	canonical	HEK293	ZNF264.GFP	ChIP-Seq	GSE58341	Homer	ZNF264
+znf317.motif	ZNF317(Zf)/HEK293-ZNF317.GFP-ChIP-Seq(GSE58341)/Homer	GTCWGCTGTYYCTCT	ZNF317	Zf	canonical	HEK293	ZNF317.GFP	ChIP-Seq	GSE58341	Homer	ZNF317
+znf322.motif	ZNF322(Zf)/HEK293-ZNF322.GFP-ChIP-Seq(GSE58341)/Homer	GAGCCTGGTACTGWGCCTGR	ZNF322	Zf	canonical	HEK293	ZNF322.GFP	ChIP-Seq	GSE58341	Homer	ZNF322
+znf382.motif	ZNF382(Zf)/HEK293-ZNF382.GFP-ChIP-Seq(GSE58341)/Homer	GNCTGTASTRNTGBCTCHTT	ZNF382	Zf	canonical	HEK293	ZNF382.GFP	ChIP-Seq	GSE58341	Homer	ZNF382
+znf415.motif	ZNF415(Zf)/HEK293-ZNF415.GFP-ChIP-Seq(GSE58341)/Homer	GRTGMTRGAGCC	ZNF415	Zf	canonical	HEK293	ZNF415.GFP	ChIP-Seq	GSE58341	Homer	ZNF415
+znf416.motif	ZNF416(Zf)/HEK293-ZNF416.GFP-ChIP-Seq(GSE58341)/Homer	WDNCTGGGCA	ZNF416	Zf	canonical	HEK293	ZNF416.GFP	ChIP-Seq	GSE58341	Homer	ZNF416
+znf41.motif	ZNF41(Zf)/HEK293-ZNF41.GFP-ChIP-Seq(GSE58341)/Homer	CCTCATGGTGYCYTWYTCCCTTGTG	ZNF41	Zf	canonical	HEK293	ZNF41.GFP	ChIP-Seq	GSE58341	Homer	ZNF41
+znf467.motif	ZNF467(Zf)/HEK293-ZNF467.GFP-ChIP-Seq(GSE58341)/Homer	TGGGGAAGGGCM	ZNF467	Zf	canonical	HEK293	ZNF467.GFP	ChIP-Seq	GSE58341	Homer	ZNF467
+znf519.motif	ZNF519(Zf)/HEK293-ZNF519.GFP-ChIP-Seq(GSE58341)/Homer	GAGSCCGAGC	ZNF519	Zf	canonical	HEK293	ZNF519.GFP	ChIP-Seq	GSE58341	Homer	ZNF519
+znf528.motif	ZNF528(Zf)/HEK293-ZNF528.GFP-ChIP-Seq(GSE58341)/Homer	AGAAATGACTTCCCT	ZNF528	Zf	canonical	HEK293	ZNF528.GFP	ChIP-Seq	GSE58341	Homer	ZNF528
+znf669.motif	ZNF669(Zf)/HEK293-ZNF669.GFP-ChIP-Seq(GSE58341)/Homer	GARTGGTCATCGCCC	ZNF669	Zf	canonical	HEK293	ZNF669.GFP	ChIP-Seq	GSE58341	Homer	ZNF669
+znf675.motif	ZNF675(Zf)/HEK293-ZNF675.GFP-ChIP-Seq(GSE58341)/Homer	ARGAGGMCAAAATGW	ZNF675	Zf	canonical	HEK293	ZNF675.GFP	ChIP-Seq	GSE58341	Homer	ZNF675
+znf692.motif	ZNF692(Zf)/HEK293-ZNF692.GFP-ChIP-Seq(GSE58341)/Homer	GTGGGCCCCA	ZNF692	Zf	canonical	HEK293	ZNF692.GFP	ChIP-Seq	GSE58341	Homer	ZNF692
+znf711.motif	ZNF711(Zf)/SHSY5Y-ZNF711-ChIP-Seq(GSE20673)/Homer	AGGCCTAG	ZNF711	Zf	canonical	SHSY5Y	ZNF711	ChIP-Seq	GSE20673	Homer	ZNF711
+zscan22.motif	ZSCAN22(Zf)/HEK293-ZSCAN22.GFP-ChIP-Seq(GSE58341)/Homer	SMCAGTCWGAKGGAGGAGGC	ZSCAN22	Zf	canonical	HEK293	ZSCAN22.GFP	ChIP-Seq	GSE58341	Homer	ZSCAN22
