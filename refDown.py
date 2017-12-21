@@ -22,5 +22,5 @@ os.popen(cmd6)
 os.popen("rm findMotifs.pl.log")
 os.popen("rm findMotifs.pl.err")
 
-#os.popen("sh ./Code/chr.sh")
+os.popen("sh ./Code/chr.sh")
 
