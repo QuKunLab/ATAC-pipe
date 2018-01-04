@@ -151,7 +151,7 @@ def Deduplicate(Inbam):
     os.system("picard MarkDuplicates INPUT=%s OUTPUT=%s METRICS_FILE=%s.Picard_Metrics_unfiltered_bam.txt VALIDATION_STRINGENCY=LENIENT ASSUME_SORTED=true REMOVE_DUPLICATES=true &> %s.Picard.log" %(Inbam,Dedupbam,Inbam,Inbam))
     return
 #sam2perbase1bpbam
-def sam2perbasebam(inbam):
+def sam2perbasebam(inbam,ref_size):
     if os.path.exists(inbam[:-4]+'.per1base.bam')==False:
         os.system('samtools view -h %s >%s'%(inbam, inbam[:-4]+'.sam'))
         os.system('perl shift_sam_bases.pl %s %s %s'%(ref_size,inbam[:-4]+'.sam',inbam[:-4]+'.tmp.sam'))
