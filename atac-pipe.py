@@ -320,7 +320,7 @@ def MappingQC_5g(gn):
 def Perbase_g(gn):
     inbam=outgroup+'/'+gn+'.pe.q10.sort.rmdup.bam'
     Bam2bedshift(inbam,extend=0)
-    sam2perbasebam(inbam)
+    sam2perbasebam(inbam,ref_size)
     inbed=outgroup+'/'+gn+'.pe.q10.sort.rmdup.shift.per1base.bed'
     Bed2bedGraph(inbed,ref_size)
     outbedGraph=inbed[:-4]+'.bedGraph'
