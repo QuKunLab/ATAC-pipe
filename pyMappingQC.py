@@ -32,20 +32,23 @@ def Pretrim(Infastq,Outfastq,N):
     inf=open(Infastq,'r')
     outf=open(Outfastq,'w')
     lines=inf.readlines()
-    if (len(lines[1])<=N):
+    if (N==1000):
         os.popen("cp "+Infastq+" "+Outfastq)
-        print "Warning: sequence length is %d, which is not long than %s!"%(len(lines[1]),N)
-    elif N==0:
-        os.popen("cp "+Infastq+' '+Outfastq)
     else:
         i=0
         while i<len(lines):
             outf.write(lines[i])
-            outf.write(lines[i+1][0:N])
-            outf.write('\n')
+            if len(lines[i+1].rstrip())<=N:
+                outf.write(lines[i+1])
+            else:           
+                outf.write(lines[i+1][0:N])
+                outf.write('\n')
             outf.write(lines[i+2])
-            outf.write(lines[i+3][0:N])
-            outf.write("\n")
+            if len(lines[i+3].rstrip())<=N:
+                outf.write(lines[i+3])
+            else:
+                outf.write(lines[i+3][0:N])
+                outf.write('\n')
             i=i+4
     return
 
@@ -148,10 +151,10 @@ def ChrM(Insam):
 #************************************************#
 def Deduplicate(Inbam):
     Dedupbam=Inbam[0:-4]+'.rmdup.bam'
-    os.system("picard MarkDuplicates INPUT=%s OUTPUT=%s METRICS_FILE=%s.Picard_Metrics_unfiltered_bam.txt VALIDATION_STRINGENCY=LENIENT ASSUME_SORTED=true REMOVE_DUPLICATES=true &> %s.Picard.log" %(Inbam,Dedupbam,Inbam,Inbam))
+    os.system("java -jar ./picard.jar MarkDuplicates INPUT=%s OUTPUT=%s METRICS_FILE=%s.Picard_Metrics_unfiltered_bam.txt VALIDATION_STRINGENCY=LENIENT ASSUME_SORTED=true REMOVE_DUPLICATES=true &> %s.Picard.log" %(Inbam,Dedupbam,Inbam,Inbam))
     return
 #sam2perbase1bpbam
-def sam2perbasebam(inbam):
+def sam2perbasebam(inbam,ref_size):
     if os.path.exists(inbam[:-4]+'.per1base.bam')==False:
         os.system('samtools view -h %s >%s'%(inbam, inbam[:-4]+'.sam'))
         os.system('perl shift_sam_bases.pl %s %s %s'%(ref_size,inbam[:-4]+'.sam',inbam[:-4]+'.tmp.sam'))
@@ -377,13 +380,15 @@ def QC(outqc, name, maplog,chrMbam,dechrMrmdupbam,dechrMrmdupbed,BL,bam,dechrMba
     BLCount=GetlineNumOfAinB(dechrMrmdupbed,BL)/2
     BLPercent=BLCount/float(totalReads)*100
 
-    beforeQC=GetlineNum(bam)
-    afterQC=GetlineNum(dechrMbam)
-    filterQC=(beforeQC-afterQC-chrMCount)/2
-    qcPercent=filterQC/float(totalReads)*100
+#    beforeQC=GetlineNum(bam)
+#    afterQC=GetlineNum(dechrMbam)
+#    filterQC=(beforeQC-afterQC-chrMCount)/2
+#    qcPercent=filterQC/float(totalReads)*100
 
     DupCount=GetlineNumOfPicard(picardlog)/2
     DupPercent=DupCount/float(totalReads)*100
+
+    qcPercent=OverallAlignmentRate-mappedPercent-chrMPercent-BLPercent-DupPercent
 
     qc.write("%d\t%.2f\t%d\t%.2f\t%.2f\t%.2f\t%.2f\t%.2f"
              %(totalReads,OverallAlignmentRate,mappedReads,mappedPercent,chrMPercent,BLPercent,qcPercent,DupPercent))
