@@ -33,7 +33,7 @@ parser.add_option("-t",type='int',default=4,help="Set the max thread,default = 4
 
 group=OptionGroup(parser,"Mapping Options")
 group.add_option("-i",type='string',help="Set input directory of pair-end fastq files.")
-group.add_option("-c",type='int',default=0,help="Intercept the first N bases, default=0 means undo interception")
+group.add_option("-c",type='int',default=1000,help="Intercept the first N bases, default=1000 means undo interception")
 group.add_option("--aq",type="int",default=20,help="Set query_length for adapter trimming,default = 20")
 group.add_option("-a",type="string",default="CTGTCTCTTATACACATCTGACGCTGCCGACGA",help="Set adapter sequence,defalut='CTGTCTCTTATACACATCTGACGCTGCCGACGA'")
 group.add_option("--MappingQC",action='store_true',default=False,help="ONLY do Mapping & QC, -i, -r, -o are also needed.")
@@ -320,7 +320,7 @@ def MappingQC_5g(gn):
 def Perbase_g(gn):
     inbam=outgroup+'/'+gn+'.pe.q10.sort.rmdup.bam'
     Bam2bedshift(inbam,extend=0)
-    sam2perbasebam(inbam)
+    sam2perbasebam(inbam,ref_size)
     inbed=outgroup+'/'+gn+'.pe.q10.sort.rmdup.shift.per1base.bed'
     Bed2bedGraph(inbed,ref_size)
     outbedGraph=inbed[:-4]+'.bedGraph'
@@ -554,66 +554,31 @@ def Drawfootprint(incsv,motifname,halfwidth):
     fig.savefig(incsv+'.png')
     plt.close(fig)
 
-def Vplot(bed,motifname,peak):
-    ref=options.r
-    temp1=outfootprint+'/'+peak.split('/')[-1]+'.include.'+motifname
-    imname='./Data/motifs/'+motifname+'.motif'
-    os.system('bedtools intersect -a %s -b %s -wo > %s'%(peak,imname+'.'+ref+'.bed',temp1))
-    inbed=open(bed,'r')
-    if  not os.path.exists(bed+'.fragment'):
-        outbed=open(bed+'.fragment','w')
-        fragid=[]
-        for line in inbed:
-            items=line.split('\t')
-            fchr,fstart,fend,fid,flen=items[0],items[1],str(int(items[1])+int(items[4])),items[3],items[4]
-            if fid not in fragid:
-                fragid.append(fid)
-                outbed.write(fchr+'\t'+fstart+'\t'+fend+'\t'+flen+'\n')
-        outbed.close()
-    temp2=temp1+'.in.'+bed.split('/')[-1].split('.')[0]+'.bed'
-
-    os.system('bedtools intersect -a %s -b %s -wo > %s'%(bed+'.fragment',temp1,temp2))
-
-    outbed=open(temp2,'r')
-    window=500
-    max_len=500
-    data_matrix=np.zeros((max_len,2*window+1))
-    for line in outbed:
-        items=line.split('\t')
-        mpos=int((int(items[10])+int(items[11]))/2)
-        dist=int((int(items[1])+int(items[2]))/2)-mpos
-        flen=int(items[3])
-        if (abs(dist)<window) & (flen<max_len):
-            data_matrix[flen][dist+window]+=1
-    norm=5000000
-
-    depth=int(os.popen('wc -l %s'%(bed+'.fragment')).read().split()[0])
-
-    data_matrix=data_matrix*int(norm)/depth
-    vplot_data = np.log10(data_matrix + 1)[::-1]
+def Vplot(intxt,motifname,window):
+    data_matrix=pd.read_table(intxt,index_col=0,header=0)
+    vplot_data = np.log10(data_matrix + 1)
     sns.set_context('poster', font_scale=1)
     fig1 = plt.figure(figsize=(10, 10))
     ax1 = plt.subplot2grid((100, 100), (20, 0), colspan=80, rowspan=80)
-    xlabels, ylabels = [' '] * 1000, [' '] * len(vplot_data.sum(axis=1))
-    xlabels[100], xlabels[300], xlabels[500], xlabels[700], xlabels[900] = \
-    '-400', '-200', motifname, '200', '400'
+    xlabels, ylabels = [' '] * (window*2+1), [' '] * len(vplot_data.sum(axis=1))
+    xlabels[0], xlabels[window], xlabels[window*2] = str(-window), motifname, str(window)
+
     ylabels[-1], ylabels[-200], ylabels[-399] = '0', '200', '400'
     sns.heatmap(vplot_data, cmap='Blues', cbar=False,
                     xticklabels=xlabels, yticklabels=ylabels, ax=ax1)
-# ax1.imshow(vplot_data, cmap='Blues')
     ax1.set_ylabel('Fragment length')
 #
     ax2 = plt.subplot2grid((100, 100), (0, 0), colspan=80, rowspan=20)
     ax2.plot(np.arange(len(data_matrix.sum(axis=0))), data_matrix.sum(axis=0))
-    ax2.set_xlim([0, 1000])
+    ax2.set_xlim([0, window*2+1])
     ax2.set_xticklabels([])
     ax2.set_yticklabels([])
     ax3 = plt.subplot2grid((100, 100), (20, 80), colspan=20, rowspan=80)
-    ax3.plot(data_matrix.sum(axis=1), np.arange(len(data_matrix.sum(axis=1))))
-    ax3.set_ylim([0, 400])
+    ax3.plot(data_matrix[::-1].sum(axis=1), np.arange(len(data_matrix.sum(axis=1))))
+    ax3.set_ylim([0, len(data_matrix.sum(axis=1))])
     ax3.set_xticklabels([])
     ax3.set_yticklabels([])
-    fig1.savefig(temp2[:-4]+'.png')
+    fig1.savefig(intxt+'.png')
     plt.close(fig1)
 
 
@@ -640,36 +605,26 @@ def Footprint():
         os.system("bedtools intersect -a "+imname+'.'+ref+'.bed'+' -b '+peaklist+' -wo > '+opeakname+'.'+inmotif+'.in')
 
     inlist=pd.read_table(opeakname+'.'+inmotif+'.in',header=None)
-    tf_all=np.asarray((list(inlist.loc[:,0]),map(int,((inlist.loc[:,1]+inlist.loc[:,2])/2)))).T
+    center=np.array(map(int,(inlist[1]+inlist[2])/2))
+    inlist[1]=center-window
+    inlist[2]=center+window+1
+    inlist.loc[:,0:2].to_csv(opeakname+'.'+inmotif+'.position',header=False,sep='\t',index=False)
+    os.system("bedtools intersect -a "+bg+" -b "+opeakname+'.'+inmotif+'.position -wa -wb >'+opeakname+'.'+inmotif+'.count')
+    a=pd.read_table(opeakname+'.'+inmotif+'.count',header=None,index_col=None)
+    a['center']=map(int,(a[5]+a[6])/2)
+    a['dis']=a[1]-a['center']
+    coj=lambda x: ''.join([x[0],':',str(x['center'])])
+    a['pos']=a.apply(coj,axis=1)
+    a['value']=a[3]
+    a[['pos','dis','value',]].to_csv(opeakname+'.'+inmotif+'.value',header=True,index=False,sep='\t')
+    b=pd.read_table(opeakname+'.'+inmotif+'.value',header=0,index_col=None)
+    df=pd.DataFrame(np.zeros((len(set(b['pos'])), int(window)*2+1)),index=set(b['pos']) )
+    df.columns=range(-int(window),int(window)+1)
+    for i in range(b.shape[0]):
+        df.loc[b.iloc[i,0],b.iloc[i,1]]=b.iloc[i,2]
 
-    chrom={}
-    for x in set(tf_all.T[0]):
-        chrom[x]=[]
-    for i in range(len(tf_all)):
-        if chrom.has_key(tf_all[i][0]):
-            chrom[tf_all[i][0]].append([tf_all[i][1],[0]*(2*window+1)])
+    mysum=int(os.popen('wc -l %s'%(options.perbase)).read().split()[0])
 
-    for site in chrom.keys():
-        chrom[site]=dict(chrom[site])
-
-    mysum=0
-    inbg=open(bg)
-    for line in inbg:
-        it=line.rstrip('\n').split('\t')
-        mysum+=float(it[3])
-        if chrom.has_key(it[0]):
-            for site in chrom[it[0]].keys():
-                dis=int(it[1])-int(site)
-                if abs(dis) <=window:
-                    chrom[it[0]][site][dis+window]+=float(it[3])
-
-    df=pd.DataFrame(index=range(-window,window+1))
-    for k1 in chrom.keys():
-        for k2 in chrom[k1].keys():
-            kname=k1+':'+str(int(k2)-int(mlen/2))+'-'+str(int(k2)+int(mlen/2))
-            df[kname]=chrom[k1][k2]
-    chrom=None
-    df=df.T
     df['sum']=df.sum(axis=1)
     df=df.sort_values(by=["sum"],ascending=False).drop(['sum'],axis=1)
     if int(options.norm)!=0:
@@ -678,7 +633,47 @@ def Footprint():
     df.to_csv(outtxt,sep='\t',index=True, header=True)
     df.sum().to_csv(outtxt+'.sum',sep='\t',index=True)
     Drawfootprint(outtxt,inmotif,window)
-    Vplot(options.perbase,inmotif,options.peak)
+
+###vplot
+
+    frag=options.perbase[:-4]+'.fragment'
+    if not os.path.exists(frag):
+        inbed=open(options.perbase,'r')
+        outfrag=open(frag,'w')
+        i=0
+        while i < int(os.popen('wc -l %s'%(options.perbase)).read().split()[0]):
+                line1=inbed.readline().split()
+                line2=inbed.readline().split()
+                x=int(line1[1])
+                y=int(line2[1])
+                start=min(x,y)
+                end=max(x,y)
+                length=end-start
+                newline=line1[0]+'\t'+str(start)+'\t'+str(end)+'\t'+str(length)+'\n'
+                outfrag.write(newline)
+                i=i+2
+        inbed.close()
+        outfrag.close()
+    os.system('bedtools intersect -a %s -b %s -wa -wb > %s'%(frag,opeakname+'.'+inmotif+'.position',opeakname+'.'+inmotif+'.frag.count'))
+    fragdf=pd.read_table(opeakname+'.'+inmotif+'.frag.count',header=None,index_col=None)
+    fragdf['center']=map(int,(fragdf[6]+fragdf[5])/2)
+    fragdf['centerfrag']=map(int,(fragdf[1]+fragdf[2])/2)
+    fragdf['dis']=fragdf['center']-fragdf['centerfrag']
+    fragdf['length']=fragdf[3]
+    fragdf2=fragdf[abs(fragdf['dis'])<=window][['dis','length']]
+    fragdf3=pd.DataFrame(np.zeros((max(fragdf2['length']),window*2+1)))
+    fragdf3.columns=range(-int(window),int(window)+1)
+    fragdf3.index=range(1,max(fragdf2['length'])+1)
+    for i in range(fragdf2.shape[0]):
+        c=fragdf2.iloc[i]['dis']
+        d=fragdf2.iloc[i]['length']
+        fragdf3.loc[d,c]+=1
+    if int(options.norm)!=0:
+        fragdf3=fragdf3*int(options.norm)/mysum
+    outVtxt=opeakname+'.'+inmotif+'_'+frag.split('/')[-1]+'.vplot'
+    fragdf3[::-1].to_csv(outVtxt,sep='\t',index=True,header=True)
+    Vplot(outVtxt,inmotif,window)
+
     return
 
 
