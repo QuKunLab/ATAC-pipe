@@ -641,7 +641,8 @@ def Footprint():
         inbed=open(options.perbase,'r')
         outfrag=open(frag,'w')
         i=0
-        while i < int(os.popen('wc -l %s'%(options.perbase)).read().split()[0]):
+        length=int(os.popen('wc -l %s'%(options.perbase)).read().split()[0])
+        while i < length:
                 line1=inbed.readline().split()
                 line2=inbed.readline().split()
                 x=int(line1[1])
