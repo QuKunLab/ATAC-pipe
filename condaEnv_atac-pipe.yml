@@ -2,7 +2,7 @@ name: atac-pipe
 channels:
   - bioconda
   - r
-  - anaconda
+  - defaults
   - conda-forge
 dependencies:
   - python=2.7
