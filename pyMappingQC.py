@@ -360,7 +360,10 @@ def GetlineNum(inf):
 def GetlineNumOfAinB(inf1,inf2):
     return int(os.popen("bedtools intersect -a %s -b %s -u | wc -l"%(inf1,inf2)).read().split()[0])
 def GetlineNumOfMapping(inf):
-    return int((open(inf,'r').readlines())[0].split()[0]),float((open(inf,'r').readlines())[-1].split()[0][:-1])
+    total_reads_re = re.compile(r'(\d+) reads;')
+    aligment_rate_re = re.compile(r'([0-9.]+)% overall')
+    content = ''.join(open(inf, 'r').readlines())
+    return int(total_reads_re.search(content).groups()[0]), float(aligment_rate_re.search(content).groups()[0])
 def GetlineNumOfPicard(inf):
     return int(re.search(r'Marking (.*) records',open(inf,'r').read()).group(1))
 
