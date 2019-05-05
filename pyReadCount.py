@@ -7,8 +7,12 @@ import numpy as np
 
 
 def Macs2(inbed,gsize,outdir,name):
-    os.system("macs2 callpeak -t %s -f BED -g %s --outdir %s -q 0.01 -n %s --nomodel --shift 0"
-             %(inbed,gsize,outdir,name))
+    if (gsize)!=('none'):
+        os.system("macs2 callpeak -t %s -f BED -g %s --outdir %s -q 0.01 -n %s --nomodel --shift 0"
+                  %(inbed,gsize,outdir,name))
+    else:
+        os.system("macs2 callpeak -t %s -f BED -g xxxx --outdir %s -q 0.01 -n %s --nomodel --shift 0"
+                  %(inbed,outdir,name))
     return
 def HQpeaks(inxls,insummits,inbed,pval,fval,qval,ubool,width,pipeup):
     xls=open(inxls,'r')
