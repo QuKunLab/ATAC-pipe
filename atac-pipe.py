@@ -26,6 +26,7 @@ usage="usage: %prog [options][inputs]"
 parser=OptionParser(usage=usage, version="%prog 1.0")
 
 parser.add_option("-r",type='string',help="Set reference genome as hg19 or mm9")
+parser.add_option("-gc",type='string',help="Set reference genome size")
 parser.add_option("--group",help="Set group information")
 parser.add_option("--project",default='atac',help="Set a name for the project,default='atac'.")
 parser.add_option("-o",type="string",default='output',help="Set output directory")
@@ -385,7 +386,10 @@ def callgroup(gn):
         print "Call Peaks for %s"%(gn)
         os.system("cat %s > %s"%(' '.join(inbedlist),ogname+".combined.bed"))
         os.system("bedSort %s %s"%(ogname+".combined.bed",ogname+".sort.bed"))
-        Macs2(ogname+".sort.bed",gsize,outpeak,gn)
+        if (gsize)!=('none'):
+            Macs2(ogname+".sort.bed",gsize,outpeak,gn)
+        else:
+            Macs2(ogname+".sort.bed",options.gc,outpeak,gn)
         xls_dir=ogname+"_peaks.xls"
         summits_dir=ogname+'_summits.bed'
         bed_dir=ogname+"_peaks.narrowPeak"
