@@ -26,7 +26,7 @@ usage="usage: %prog [options][inputs]"
 parser=OptionParser(usage=usage, version="%prog 1.0")
 
 parser.add_option("-r",type='string',help="Set reference genome as hg19 or mm9")
-parser.add_option("-gc",type='string',help="Set reference genome size")
+parser.add_option("--gc",type='string',help="Set reference genome size")
 parser.add_option("--group",help="Set group information")
 parser.add_option("--project",default='atac',help="Set a name for the project,default='atac'.")
 parser.add_option("-o",type="string",default='output',help="Set output directory")
