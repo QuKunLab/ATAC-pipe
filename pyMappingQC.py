@@ -160,13 +160,14 @@ def sam2perbasebam(inbam,ref_size):
         os.system('perl shift_sam_bases.pl %s %s %s'%(ref_size,inbam[:-4]+'.sam',inbam[:-4]+'.tmp.sam'))
         os.system('perl sam2perbase1bp.pl %s %s %s'%(ref_size,inbam[:-4]+'.tmp.sam',inbam[:-4]+'.tmp2.sam'))
         header_sam = inbam[:-4]+'.header.sam'
+        os.popen('awk "NF<10" ' + inbam[:-4] + '.tmp.sam > ./header.sam')
         os.popen('cat '+'./header.sam '+inbam[:-4]+'.tmp2.sam'+' > '+header_sam)
         bam = inbam[:-4]+'.header.bam'
         os.popen('samtools view -bS '+header_sam+' > '+bam)
         sorted_bam = inbam[:-4]+'.per1base.bam'
         os.popen('samtools sort '+bam+' > '+sorted_bam)
         os.popen('samtools index '+sorted_bam)
-        os.popen('rm '+header_sam+' '+bam+' '+inbam[:-4]+'.sam'+' '+inbam[:-4]+'.tmp.sam'+' '+inbam[:-4]+'.tmp2.sam')
+        os.popen('rm '+header_sam+' '+bam+' '+inbam[:-4]+'.sam'+' '+inbam[:-4]+'.tmp.sam'+' '+inbam[:-4]+'.tmp2.sam' + ' ./header.sam')
 
     return
 #Bam2bedshift
