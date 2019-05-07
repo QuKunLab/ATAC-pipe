@@ -34,7 +34,7 @@ parser.add_option("-t",type='int',default=4,help="Set the max thread,default = 4
 
 group=OptionGroup(parser,"Mapping Options")
 group.add_option("-i",type='string',help="Set input directory of pair-end fastq files.")
-group.add_option("-c",type='int',default=1000,help="Intercept the first N bases, default=1000 means undo interception")
+group.add_option("-c",type='int',default=50,help="Intercept the first N bases, default=50 means undo interception")
 group.add_option("--aq",type="int",default=20,help="Set query_length for adapter trimming,default = 20")
 group.add_option("-a",type="string",default="CTGTCTCTTATACACATCTGACGCTGCCGACGA",help="Set adapter sequence,defalut='CTGTCTCTTATACACATCTGACGCTGCCGACGA'")
 group.add_option("--MappingQC",action='store_true',default=False,help="ONLY do Mapping & QC, -i, -r, -o are also needed.")
