@@ -7,8 +7,6 @@ channels:
 dependencies:
   - python=2.7
   - numpy=1.11.0
-  - pysam=0.11
-  - matplotlib=2.0.0
   - samtools=1.5
   - r=3.2.2
   - gawk=4.1
@@ -25,4 +23,6 @@ dependencies:
   - ucsc-bedsort
   - ucsc-bedgraphtobigwig
   - scikit-learn=0.17.1
-
+  - pip:
+      - matplotlib==2.0.0
+      - pysam==0.11
